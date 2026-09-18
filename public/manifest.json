@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Indian Standards AI",
+  "version": "1.0",
+  "description": "Government Standards Assistant to analyze procurement specifications.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Indian Standards AI"
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
