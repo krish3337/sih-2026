@@ -1,0 +1,158 @@
+[
+  {
+    "query_id": "TQ-001",
+    "input_text": "standard for stainless steel welded pipes and tubes for general service",
+    "expected_standard_id": "IS 17876:2022",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-002",
+    "input_text": "IS 17876 welded stainless steel tube specification grades and tolerances",
+    "expected_standard_id": "IS 17876:2022",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-003",
+    "input_text": "is BIS certification mandatory for welded stainless steel pipes",
+    "expected_standard_id": "IS 17876:2022",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-004",
+    "input_text": "सामान्य सेवाओं के लिए स्टेनलेस इस्पात वेल्डेड पाइप और ट्यूब का भारतीय मानक",
+    "expected_standard_id": "IS 17876:2022",
+    "language": "Hindi"
+  },
+  {
+    "query_id": "TQ-005",
+    "input_text": "स्टेनलेस स्टील वेल्डेड पाइप के लिए बीआईएस प्रमाणन अनिवार्य है क्या",
+    "expected_standard_id": "IS 17876:2022",
+    "language": "Hindi"
+  },
+  {
+    "query_id": "TQ-006",
+    "input_text": "spiral welded steel pipe above 457 mm diameter specification",
+    "expected_standard_id": "IS 5504:2025",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-007",
+    "input_text": "सर्पिल वेल्डेड इस्पात पाइप के लिए भारतीय मानक",
+    "expected_standard_id": "IS 5504:2025",
+    "language": "Hindi"
+  },
+  {
+    "query_id": "TQ-008",
+    "input_text": "steel tubes for idlers for belt conveyors standard",
+    "expected_standard_id": "IS 9295:2024",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-009",
+    "input_text": "बेल्ट कन्वेयर के आइडलर के लिए इस्पात ट्यूब मानक",
+    "expected_standard_id": "IS 9295:2024",
+    "language": "Hindi"
+  },
+  {
+    "query_id": "TQ-010",
+    "input_text": "Indian Standard for hot rolled alloy steel bars for bright bars and machine parts",
+    "expected_standard_id": "IS 19559:2026",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-011",
+    "input_text": "IS 19559 alloy steel bar grade designation and chemical composition",
+    "expected_standard_id": "IS 19559:2026",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-012",
+    "input_text": "तप्त वेल्लित मिश्र धातु इस्पात के छड़ों के लिए भारतीय मानक",
+    "expected_standard_id": "IS 19559:2026",
+    "language": "Hindi"
+  },
+  {
+    "query_id": "TQ-013",
+    "input_text": "cold formed welded carbon steel square and rectangular hollow sections specification",
+    "expected_standard_id": "IS 18573:2024",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-014",
+    "input_text": "कोल्ड फॉर्म्ड वेल्डेड कार्बन स्टील स्क्वायर और आयताकार खोखले सेक्शन के लिए बीआईएस मानक",
+    "expected_standard_id": "IS 18573:2024",
+    "language": "Hindi"
+  },
+  {
+    "query_id": "TQ-015",
+    "input_text": "stainless steel tubes for food and beverage industry",
+    "expected_standard_id": "IS 6913:2023",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-016",
+    "input_text": "खाद्य और पेय उद्योग के लिए स्टेनलेस इस्पात नलिकाएं",
+    "expected_standard_id": "IS 6913:2023",
+    "language": "Hindi"
+  },
+  {
+    "query_id": "TQ-017",
+    "input_text": "seamless stainless steel pipes for general services standard",
+    "expected_standard_id": "IS 17875:2022",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-018",
+    "input_text": "सामान्य सेवाओं के लिए स्टेनलेस इस्पात सीमलेस पाइप का मानक",
+    "expected_standard_id": "IS 17875:2022",
+    "language": "Hindi"
+  },
+  {
+    "query_id": "TQ-019",
+    "input_text": "high chrome grinding media ball specification for cement mills",
+    "expected_standard_id": "IS 19773:2026",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-020",
+    "input_text": "सीमेंट मिलों के लिए उच्च क्रोम ग्राइंडिंग मीडिया बॉल का मानक",
+    "expected_standard_id": "IS 19773:2026",
+    "language": "Hindi"
+  },
+  {
+    "query_id": "TQ-021",
+    "input_text": "standard silica sand for testing foundry raw materials",
+    "expected_standard_id": "IS 3018:2026",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-022",
+    "input_text": "फाउंड्री में कच्चे माल के परीक्षण के लिए मानक सिलिका रेत",
+    "expected_standard_id": "IS 3018:2026",
+    "language": "Hindi"
+  },
+  {
+    "query_id": "TQ-023",
+    "input_text": "silica flour for foundries specification",
+    "expected_standard_id": "IS 3339:2024",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-024",
+    "input_text": "ढलाई के लिए सिलिका पाउडर का भारतीय मानक",
+    "expected_standard_id": "IS 3339:2024",
+    "language": "Hindi"
+  },
+  {
+    "query_id": "TQ-025",
+    "input_text": "investment castings specification for severe corrosion applications",
+    "expected_standard_id": "IS 11286:2024",
+    "language": "English"
+  },
+  {
+    "query_id": "TQ-026",
+    "input_text": "कठोर अनुप्रयोगों के लिए संक्षारण प्रतिरोधक निवेश ढलाई का मानक",
+    "expected_standard_id": "IS 11286:2024",
+    "language": "Hindi"
+  }
+]

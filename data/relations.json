@@ -1,0 +1,912 @@
+[
+  {
+    "ref_id": "CR-001",
+    "from_standard_id": "IS 5504",
+    "to_standard_id": "IS 228",
+    "relation_type": "Test Method",
+    "target_detail": "IS 228"
+  },
+  {
+    "ref_id": "CR-002",
+    "from_standard_id": "IS 5504",
+    "to_standard_id": "IS 1387",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 1387:1993"
+  },
+  {
+    "ref_id": "CR-003",
+    "from_standard_id": "IS 5504",
+    "to_standard_id": "IS 1608",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1608 (Part 1):2022/ISO 6892-1:2019"
+  },
+  {
+    "ref_id": "CR-004",
+    "from_standard_id": "IS 9295",
+    "to_standard_id": "IS 228",
+    "relation_type": "Test Method",
+    "target_detail": "IS 228"
+  },
+  {
+    "ref_id": "CR-005",
+    "from_standard_id": "IS 9295",
+    "to_standard_id": "IS 1387",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 1387:1993"
+  },
+  {
+    "ref_id": "CR-006",
+    "from_standard_id": "IS 9295",
+    "to_standard_id": "IS 1608",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1608 (Part 1):2022/ISO 6892-1:2019"
+  },
+  {
+    "ref_id": "CR-007",
+    "from_standard_id": "IS 9295",
+    "to_standard_id": "IS 1956",
+    "relation_type": "Terminology",
+    "target_detail": "IS 1956 (various parts)"
+  },
+  {
+    "ref_id": "CR-008",
+    "from_standard_id": "IS 9295",
+    "to_standard_id": "IS 2062",
+    "relation_type": "Related Product",
+    "target_detail": "IS 2062:2011"
+  },
+  {
+    "ref_id": "CR-009",
+    "from_standard_id": "IS 9295",
+    "to_standard_id": "IS 2328",
+    "relation_type": "Test Method",
+    "target_detail": "IS 2328:2018/ISO 8492:2013"
+  },
+  {
+    "ref_id": "CR-010",
+    "from_standard_id": "IS 9295",
+    "to_standard_id": "IS 2335",
+    "relation_type": "Test Method",
+    "target_detail": "IS 2335:2005/ISO 8493:1998"
+  },
+  {
+    "ref_id": "CR-011",
+    "from_standard_id": "IS 9295",
+    "to_standard_id": "IS 4711",
+    "relation_type": "Test Method",
+    "target_detail": "IS 4711:2008"
+  },
+  {
+    "ref_id": "CR-012",
+    "from_standard_id": "IS 9295",
+    "to_standard_id": "IS 10748",
+    "relation_type": "Related Product",
+    "target_detail": "IS 10748:2004"
+  },
+  {
+    "ref_id": "CR-013",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 228",
+    "relation_type": "Test Method",
+    "target_detail": "IS 228 (various parts)"
+  },
+  {
+    "ref_id": "CR-014",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 1387",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 1387:1993"
+  },
+  {
+    "ref_id": "CR-015",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 1500",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1500 (Part 1):2019/ISO 6506-1:2014"
+  },
+  {
+    "ref_id": "CR-016",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 1586",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1586 (Part 1):2018/ISO 6508-1:2016"
+  },
+  {
+    "ref_id": "CR-017",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 1608",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1608 (Part 1):2018/ISO 6892-1:2016"
+  },
+  {
+    "ref_id": "CR-018",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 1956",
+    "relation_type": "Terminology",
+    "target_detail": "IS 1956 (Part 8):1976"
+  },
+  {
+    "ref_id": "CR-019",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 2328",
+    "relation_type": "Test Method",
+    "target_detail": "IS 2328:2018/ISO 8492:2013"
+  },
+  {
+    "ref_id": "CR-020",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 2330",
+    "relation_type": "Test Method",
+    "target_detail": "IS 2330:2018/ISO 8494:2013"
+  },
+  {
+    "ref_id": "CR-021",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 4748",
+    "relation_type": "Test Method",
+    "target_detail": "IS 4748:2021/ISO 643:2019"
+  },
+  {
+    "ref_id": "CR-022",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 8910",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 8910:2010/ISO 404:1992"
+  },
+  {
+    "ref_id": "CR-023",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 2",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 2:2022"
+  },
+  {
+    "ref_id": "CR-024",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 1762",
+    "relation_type": "Terminology",
+    "target_detail": "IS 1762 (Part 1)"
+  },
+  {
+    "ref_id": "CR-025",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 10461",
+    "relation_type": "Test Method",
+    "target_detail": "IS 10461 (Part 1)"
+  },
+  {
+    "ref_id": "CR-026",
+    "from_standard_id": "IS 17876",
+    "to_standard_id": "IS 10461",
+    "relation_type": "Test Method",
+    "target_detail": "IS 10461 (Part 2)"
+  },
+  {
+    "ref_id": "CR-027",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 228",
+    "relation_type": "Test Method",
+    "target_detail": "IS 228 (Various Parts)"
+  },
+  {
+    "ref_id": "CR-028",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 1500",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1500 (Part 1):2019/ISO 6506-3:2014"
+  },
+  {
+    "ref_id": "CR-029",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 1608",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1608 (Part 1):2022/ISO 6892-1:2019"
+  },
+  {
+    "ref_id": "CR-030",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 1762",
+    "relation_type": "Terminology",
+    "target_detail": "IS 1762 (Part 1):1974"
+  },
+  {
+    "ref_id": "CR-031",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 1956",
+    "relation_type": "Terminology",
+    "target_detail": "IS 1956 (Various Parts)"
+  },
+  {
+    "ref_id": "CR-032",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 3739",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 3739:1987"
+  },
+  {
+    "ref_id": "CR-033",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 4075",
+    "relation_type": "Test Method",
+    "target_detail": "IS 4075:1985"
+  },
+  {
+    "ref_id": "CR-034",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 4163",
+    "relation_type": "Test Method",
+    "target_detail": "IS 4163:2021/ISO 4967:2013"
+  },
+  {
+    "ref_id": "CR-035",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 4748",
+    "relation_type": "Test Method",
+    "target_detail": "IS 4748:2021/ISO 643:2019"
+  },
+  {
+    "ref_id": "CR-036",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 6396",
+    "relation_type": "Test Method",
+    "target_detail": "IS 6396:2023/ISO 3887:2017"
+  },
+  {
+    "ref_id": "CR-037",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 8811",
+    "relation_type": "Test Method",
+    "target_detail": "IS 8811:1998"
+  },
+  {
+    "ref_id": "CR-038",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 8910",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 8910:2022/ISO 404:2013"
+  },
+  {
+    "ref_id": "CR-039",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 10138",
+    "relation_type": "Test Method",
+    "target_detail": "IS 10138:2010"
+  },
+  {
+    "ref_id": "CR-040",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 2",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 2:2022"
+  },
+  {
+    "ref_id": "CR-041",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 14650",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 14650"
+  },
+  {
+    "ref_id": "CR-042",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 7283",
+    "relation_type": "Related Product",
+    "target_detail": "IS 7283:1992"
+  },
+  {
+    "ref_id": "CR-043",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 1875",
+    "relation_type": "Related Product",
+    "target_detail": "IS 1875:2025"
+  },
+  {
+    "ref_id": "CR-044",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 5517",
+    "relation_type": "Related Product",
+    "target_detail": "IS 5517:1993"
+  },
+  {
+    "ref_id": "CR-045",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 4432",
+    "relation_type": "Related Product",
+    "target_detail": "IS 4432:1988"
+  },
+  {
+    "ref_id": "CR-046",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 3930",
+    "relation_type": "Related Product",
+    "target_detail": "IS 3930:1994"
+  },
+  {
+    "ref_id": "CR-047",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 3748",
+    "relation_type": "Related Product",
+    "target_detail": "IS 3748:2022"
+  },
+  {
+    "ref_id": "CR-048",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 9550",
+    "relation_type": "Related Product",
+    "target_detail": "IS 9550:2024"
+  },
+  {
+    "ref_id": "CR-049",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 3195",
+    "relation_type": "Related Product",
+    "target_detail": "IS 3195:1992"
+  },
+  {
+    "ref_id": "CR-050",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 3431",
+    "relation_type": "Related Product",
+    "target_detail": "IS 3431:1982"
+  },
+  {
+    "ref_id": "CR-051",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 11169",
+    "relation_type": "Related Product",
+    "target_detail": "IS 11169 (Part 1):2022"
+  },
+  {
+    "ref_id": "CR-052",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 11169",
+    "relation_type": "Related Product",
+    "target_detail": "IS 11169 (Part 2):2023"
+  },
+  {
+    "ref_id": "CR-053",
+    "from_standard_id": "IS 19559",
+    "to_standard_id": "IS 6603",
+    "relation_type": "Related Product",
+    "target_detail": "IS 6603:2001"
+  },
+  {
+    "ref_id": "CR-054",
+    "from_standard_id": "IS 18573",
+    "to_standard_id": "IS 209",
+    "relation_type": "Related Product",
+    "target_detail": "IS 209:1992"
+  },
+  {
+    "ref_id": "CR-055",
+    "from_standard_id": "IS 18573",
+    "to_standard_id": "IS 228",
+    "relation_type": "Test Method",
+    "target_detail": "IS 228 (all parts)"
+  },
+  {
+    "ref_id": "CR-056",
+    "from_standard_id": "IS 18573",
+    "to_standard_id": "IS 277",
+    "relation_type": "Related Product",
+    "target_detail": "IS 277:2018"
+  },
+  {
+    "ref_id": "CR-057",
+    "from_standard_id": "IS 18573",
+    "to_standard_id": "IS 513",
+    "relation_type": "Related Product",
+    "target_detail": "IS 513 (Part 1):2016"
+  },
+  {
+    "ref_id": "CR-058",
+    "from_standard_id": "IS 18573",
+    "to_standard_id": "IS 513",
+    "relation_type": "Related Product",
+    "target_detail": "IS 513 (Part 2):2016"
+  },
+  {
+    "ref_id": "CR-059",
+    "from_standard_id": "IS 18573",
+    "to_standard_id": "IS 1387",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 1387:1993"
+  },
+  {
+    "ref_id": "CR-060",
+    "from_standard_id": "IS 18573",
+    "to_standard_id": "IS 1608",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1608 (Part 1):2022/ISO 6892-1:2019"
+  },
+  {
+    "ref_id": "CR-061",
+    "from_standard_id": "IS 18573",
+    "to_standard_id": "IS 2633",
+    "relation_type": "Test Method",
+    "target_detail": "IS 2633:1986"
+  },
+  {
+    "ref_id": "CR-062",
+    "from_standard_id": "IS 18573",
+    "to_standard_id": "IS 10748",
+    "relation_type": "Related Product",
+    "target_detail": "IS 10748:2004"
+  },
+  {
+    "ref_id": "CR-063",
+    "from_standard_id": "IS 18573",
+    "to_standard_id": "IS 13229",
+    "relation_type": "Related Product",
+    "target_detail": "IS 13229:1991"
+  },
+  {
+    "ref_id": "CR-064",
+    "from_standard_id": "IS 6913",
+    "to_standard_id": "IS 228",
+    "relation_type": "Test Method",
+    "target_detail": "IS 228 (all parts)"
+  },
+  {
+    "ref_id": "CR-065",
+    "from_standard_id": "IS 6913",
+    "to_standard_id": "IS 1387",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 1387:1993"
+  },
+  {
+    "ref_id": "CR-066",
+    "from_standard_id": "IS 6913",
+    "to_standard_id": "IS 1586",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1586 (Part 1):2018/ISO 6508-1:2016"
+  },
+  {
+    "ref_id": "CR-067",
+    "from_standard_id": "IS 6913",
+    "to_standard_id": "IS 1608",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1608 (Part 1):2022/ISO 6892-1:2019"
+  },
+  {
+    "ref_id": "CR-068",
+    "from_standard_id": "IS 6913",
+    "to_standard_id": "IS 1762",
+    "relation_type": "Terminology",
+    "target_detail": "IS 1762 (Part 1):1974"
+  },
+  {
+    "ref_id": "CR-069",
+    "from_standard_id": "IS 6913",
+    "to_standard_id": "IS 1956",
+    "relation_type": "Terminology",
+    "target_detail": "IS 1956 (all parts)"
+  },
+  {
+    "ref_id": "CR-070",
+    "from_standard_id": "IS 6913",
+    "to_standard_id": "IS 2328",
+    "relation_type": "Test Method",
+    "target_detail": "IS 2328:2018/ISO 8492:2013"
+  },
+  {
+    "ref_id": "CR-071",
+    "from_standard_id": "IS 6913",
+    "to_standard_id": "IS 2330",
+    "relation_type": "Test Method",
+    "target_detail": "IS 2330:2018/ISO 8494:2013"
+  },
+  {
+    "ref_id": "CR-072",
+    "from_standard_id": "IS 6913",
+    "to_standard_id": "IS 3073",
+    "relation_type": "Test Method",
+    "target_detail": "IS 3073:1967"
+  },
+  {
+    "ref_id": "CR-073",
+    "from_standard_id": "IS 6913",
+    "to_standard_id": "IS 10117",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 10117:2000"
+  },
+  {
+    "ref_id": "CR-074",
+    "from_standard_id": "IS 6913",
+    "to_standard_id": "IS 10461",
+    "relation_type": "Test Method",
+    "target_detail": "IS 10461 (Part 2):1994"
+  },
+  {
+    "ref_id": "CR-075",
+    "from_standard_id": "IS 6913",
+    "to_standard_id": "IS 13177",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 13177:1991"
+  },
+  {
+    "ref_id": "CR-076",
+    "from_standard_id": "IS 6913",
+    "to_standard_id": "IS 15262",
+    "relation_type": "Test Method",
+    "target_detail": "IS 15262:2002/ISO 4287:1997"
+  },
+  {
+    "ref_id": "CR-077",
+    "from_standard_id": "IS 17875",
+    "to_standard_id": "IS 228",
+    "relation_type": "Test Method",
+    "target_detail": "IS 228 (various parts)"
+  },
+  {
+    "ref_id": "CR-078",
+    "from_standard_id": "IS 17875",
+    "to_standard_id": "IS 1387",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 1387:1993"
+  },
+  {
+    "ref_id": "CR-079",
+    "from_standard_id": "IS 17875",
+    "to_standard_id": "IS 1500",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1500 (Part 1):2019/ISO 6506-1:2014"
+  },
+  {
+    "ref_id": "CR-080",
+    "from_standard_id": "IS 17875",
+    "to_standard_id": "IS 1586",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1586 (Part 1):2018/ISO 6508-1:2016"
+  },
+  {
+    "ref_id": "CR-081",
+    "from_standard_id": "IS 17875",
+    "to_standard_id": "IS 1608",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1608 (Part 1):2018/ISO 6892-1:2016"
+  },
+  {
+    "ref_id": "CR-082",
+    "from_standard_id": "IS 17875",
+    "to_standard_id": "IS 1956",
+    "relation_type": "Terminology",
+    "target_detail": "IS 1956 (Part 8):1976"
+  },
+  {
+    "ref_id": "CR-083",
+    "from_standard_id": "IS 17875",
+    "to_standard_id": "IS 2328",
+    "relation_type": "Test Method",
+    "target_detail": "IS 2328:2018/ISO 8492:2013"
+  },
+  {
+    "ref_id": "CR-084",
+    "from_standard_id": "IS 17875",
+    "to_standard_id": "IS 4748",
+    "relation_type": "Test Method",
+    "target_detail": "IS 4748:2021/ISO 643:2019"
+  },
+  {
+    "ref_id": "CR-085",
+    "from_standard_id": "IS 17875",
+    "to_standard_id": "IS 8910",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 8910:2010/ISO 404:1992"
+  },
+  {
+    "ref_id": "CR-086",
+    "from_standard_id": "IS 19773",
+    "to_standard_id": "IS 228",
+    "relation_type": "Test Method",
+    "target_detail": "IS 228 (relevant parts)"
+  },
+  {
+    "ref_id": "CR-087",
+    "from_standard_id": "IS 19773",
+    "to_standard_id": "IS 1387",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 1387:1993"
+  },
+  {
+    "ref_id": "CR-088",
+    "from_standard_id": "IS 19773",
+    "to_standard_id": "IS 1586",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1586 (Part 1):2025"
+  },
+  {
+    "ref_id": "CR-089",
+    "from_standard_id": "IS 19773",
+    "to_standard_id": "IS 1956",
+    "relation_type": "Terminology",
+    "target_detail": "IS 1956 (Part 6):1976"
+  },
+  {
+    "ref_id": "CR-090",
+    "from_standard_id": "IS 19773",
+    "to_standard_id": "IS 2763",
+    "relation_type": "Terminology",
+    "target_detail": "IS 2763:1999"
+  },
+  {
+    "ref_id": "CR-091",
+    "from_standard_id": "IS 19773",
+    "to_standard_id": "IS 3343",
+    "relation_type": "Related Product",
+    "target_detail": "IS 3343:1965"
+  },
+  {
+    "ref_id": "CR-092",
+    "from_standard_id": "IS 19773",
+    "to_standard_id": "IS 3658",
+    "relation_type": "Test Method",
+    "target_detail": "IS 3658:1999"
+  },
+  {
+    "ref_id": "CR-093",
+    "from_standard_id": "IS 19773",
+    "to_standard_id": "IS 3703",
+    "relation_type": "Test Method",
+    "target_detail": "IS 3703:2023"
+  },
+  {
+    "ref_id": "CR-094",
+    "from_standard_id": "IS 19773",
+    "to_standard_id": "IS 7754",
+    "relation_type": "Test Method",
+    "target_detail": "IS 7754 (Part 3):2024"
+  },
+  {
+    "ref_id": "CR-095",
+    "from_standard_id": "IS 3018",
+    "to_standard_id": "IS 460",
+    "relation_type": "Test Method",
+    "target_detail": "IS 460 (Part 1):2020"
+  },
+  {
+    "ref_id": "CR-096",
+    "from_standard_id": "IS 3018",
+    "to_standard_id": "IS 460",
+    "relation_type": "Test Method",
+    "target_detail": "IS 460 (Part 2):2020"
+  },
+  {
+    "ref_id": "CR-097",
+    "from_standard_id": "IS 3018",
+    "to_standard_id": "IS 460",
+    "relation_type": "Test Method",
+    "target_detail": "IS 460 (Part 3):2020"
+  },
+  {
+    "ref_id": "CR-098",
+    "from_standard_id": "IS 3018",
+    "to_standard_id": "IS 1387",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 1387:1993"
+  },
+  {
+    "ref_id": "CR-099",
+    "from_standard_id": "IS 3018",
+    "to_standard_id": "IS 1811",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1811:1984"
+  },
+  {
+    "ref_id": "CR-100",
+    "from_standard_id": "IS 3018",
+    "to_standard_id": "IS 1918",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1918:1966"
+  },
+  {
+    "ref_id": "CR-101",
+    "from_standard_id": "IS 3018",
+    "to_standard_id": "IS 1987",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 1987:2002"
+  },
+  {
+    "ref_id": "CR-102",
+    "from_standard_id": "IS 3339",
+    "to_standard_id": "IS 460",
+    "relation_type": "Test Method",
+    "target_detail": "IS 460 (Part 1):2020"
+  },
+  {
+    "ref_id": "CR-103",
+    "from_standard_id": "IS 3339",
+    "to_standard_id": "IS 460",
+    "relation_type": "Test Method",
+    "target_detail": "IS 460 (Part 2):2020"
+  },
+  {
+    "ref_id": "CR-104",
+    "from_standard_id": "IS 3339",
+    "to_standard_id": "IS 460",
+    "relation_type": "Test Method",
+    "target_detail": "IS 460 (Part 3):2020"
+  },
+  {
+    "ref_id": "CR-105",
+    "from_standard_id": "IS 3339",
+    "to_standard_id": "IS 1387",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 1387:1993"
+  },
+  {
+    "ref_id": "CR-106",
+    "from_standard_id": "IS 3339",
+    "to_standard_id": "IS 1811",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1811:1984"
+  },
+  {
+    "ref_id": "CR-107",
+    "from_standard_id": "IS 3339",
+    "to_standard_id": "IS 1917",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1917 (Part 1):1991"
+  },
+  {
+    "ref_id": "CR-108",
+    "from_standard_id": "IS 3339",
+    "to_standard_id": "IS 1917",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1917 (Part 3):1992"
+  },
+  {
+    "ref_id": "CR-109",
+    "from_standard_id": "IS 3339",
+    "to_standard_id": "IS 1918",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1918:1966"
+  },
+  {
+    "ref_id": "CR-110",
+    "from_standard_id": "IS 3339",
+    "to_standard_id": "IS 5461",
+    "relation_type": "Test Method",
+    "target_detail": "IS 5461:1984"
+  },
+  {
+    "ref_id": "CR-111",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 228",
+    "relation_type": "Test Method",
+    "target_detail": "IS 228 (relevant parts)"
+  },
+  {
+    "ref_id": "CR-112",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 1500",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1500 (Part 1):2019/ISO 6506-1:2014"
+  },
+  {
+    "ref_id": "CR-113",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 1598",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1598:(1977)"
+  },
+  {
+    "ref_id": "CR-114",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 1599",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1599:2023/ISO 7438:2020"
+  },
+  {
+    "ref_id": "CR-115",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 1608",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1608 (Part 1):2022/ISO 6892-1:2019"
+  },
+  {
+    "ref_id": "CR-116",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 1608",
+    "relation_type": "Test Method",
+    "target_detail": "IS 1608 (Part 2):2020/ISO 6892-2:2018"
+  },
+  {
+    "ref_id": "CR-117",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 1741",
+    "relation_type": "Related Product",
+    "target_detail": "IS 1741:2019"
+  },
+  {
+    "ref_id": "CR-118",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 2595",
+    "relation_type": "Test Method",
+    "target_detail": "IS 2595:2008"
+  },
+  {
+    "ref_id": "CR-119",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 3407",
+    "relation_type": "Test Method",
+    "target_detail": "IS 3407 (Part 2):1983"
+  },
+  {
+    "ref_id": "CR-120",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 3664",
+    "relation_type": "Test Method",
+    "target_detail": "IS 3664:1981"
+  },
+  {
+    "ref_id": "CR-121",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 3703",
+    "relation_type": "Test Method",
+    "target_detail": "IS 3703:2023"
+  },
+  {
+    "ref_id": "CR-122",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 5530",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 5530:2005"
+  },
+  {
+    "ref_id": "CR-123",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 6601",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 6601:1987"
+  },
+  {
+    "ref_id": "CR-124",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 6907",
+    "relation_type": "Test Method",
+    "target_detail": "IS 6907:1992"
+  },
+  {
+    "ref_id": "CR-125",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 9565",
+    "relation_type": "Test Method",
+    "target_detail": "IS 9565:2023"
+  },
+  {
+    "ref_id": "CR-126",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 10724",
+    "relation_type": "Test Method",
+    "target_detail": "IS 10724:1990"
+  },
+  {
+    "ref_id": "CR-127",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 11166",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 11166:1993"
+  },
+  {
+    "ref_id": "CR-128",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 11709",
+    "relation_type": "Normative Reference",
+    "target_detail": "IS 11709:2007"
+  },
+  {
+    "ref_id": "CR-129",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 11732",
+    "relation_type": "Test Method",
+    "target_detail": "IS 11732:1995"
+  },
+  {
+    "ref_id": "CR-130",
+    "from_standard_id": "IS 11286",
+    "to_standard_id": "IS 12938",
+    "relation_type": "Test Method",
+    "target_detail": "IS 12938:1990"
+  }
+]

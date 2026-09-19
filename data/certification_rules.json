@@ -1,0 +1,79 @@
+{
+  "IS 5504:2025": {
+    "certification_id": "CERT-001",
+    "certification_name": "BIS Product Certification",
+    "mandatory": "No",
+    "qco_reference": "N/A",
+    "hs_code": "not verified"
+  },
+  "IS 9295:2024": {
+    "certification_id": "CERT-002",
+    "certification_name": "BIS Product Certification",
+    "mandatory": "No",
+    "qco_reference": "N/A",
+    "hs_code": "not verified"
+  },
+  "IS 17876:2022": {
+    "certification_id": "CERT-003",
+    "certification_name": "BIS Product Certification",
+    "mandatory": "Yes",
+    "qco_reference": "Stainless Steel Pipes and Tubes (Quality Control) Order, 2025 (DPIIT) - web source, not confirmed on BIS portal",
+    "hs_code": "not verified"
+  },
+  "IS 19559:2026": {
+    "certification_id": "CERT-004",
+    "certification_name": "BIS Product Certification",
+    "mandatory": "No",
+    "qco_reference": "N/A",
+    "hs_code": "not verified"
+  },
+  "IS 18573:2024": {
+    "certification_id": "CERT-005",
+    "certification_name": "N/A",
+    "mandatory": "No",
+    "qco_reference": "N/A",
+    "hs_code": "not verified"
+  },
+  "IS 6913:2023": {
+    "certification_id": "CERT-006",
+    "certification_name": "BIS Product Certification",
+    "mandatory": "Yes",
+    "qco_reference": "DPIIT Quality Control Order (exact title not verified)",
+    "hs_code": "not verified"
+  },
+  "IS 17875:2022": {
+    "certification_id": "CERT-007",
+    "certification_name": "BIS Product Certification",
+    "mandatory": "Yes",
+    "qco_reference": "DPIIT Quality Control Order (exact title not verified)",
+    "hs_code": "not verified"
+  },
+  "IS 19773:2026": {
+    "certification_id": "CERT-008",
+    "certification_name": "BIS Product Certification",
+    "mandatory": "No",
+    "qco_reference": "N/A",
+    "hs_code": "not verified"
+  },
+  "IS 3018:2026": {
+    "certification_id": "CERT-009",
+    "certification_name": "BIS Product Certification",
+    "mandatory": "No",
+    "qco_reference": "N/A",
+    "hs_code": "not verified"
+  },
+  "IS 3339:2024": {
+    "certification_id": "CERT-010",
+    "certification_name": "BIS Product Certification",
+    "mandatory": "No",
+    "qco_reference": "N/A",
+    "hs_code": "not verified"
+  },
+  "IS 11286:2024": {
+    "certification_id": "CERT-011",
+    "certification_name": "BIS Product Certification",
+    "mandatory": "No",
+    "qco_reference": "N/A",
+    "hs_code": "not verified"
+  }
+}
