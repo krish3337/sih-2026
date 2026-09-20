@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-government-blue: #1a365d;
+  --color-government-lightBlue: #2b6cb0;
+  --color-government-bg: #f7fafc;
+  --color-government-border: #e2e8f0;
+  --color-government-text: #2d3748;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-government-bg);
+    color: var(--color-government-text);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-government-blue text-white px-4 py-2 rounded shadow hover:bg-government-lightBlue transition-colors font-medium;
+  }
+  .btn-secondary {
+    @apply bg-white text-government-text border border-government-border px-4 py-2 rounded shadow-sm hover:bg-gray-50 transition-colors font-medium;
+  }
+  .card {
+    @apply bg-white border border-government-border rounded shadow-sm p-4;
+  }
+  .input-field {
+    @apply w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-government-lightBlue focus:border-transparent;
+  }
+}
