@@ -1,0 +1,3910 @@
+[
+  {
+    "original_query": "standard for stainless steel welded pipes and tubes for general service",
+    "retrieval_query": "standard for stainless steel welded pipes and tubes for general service",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.9113,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8926,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.862,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 5504",
+        "standard_id": "IS 5504:2025",
+        "title": "Spiral Welded Pipes \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements of spiral seam welded steel pipe over 457 mm diameter and up to 3 250 mm diameter with wall thickness up to 25 mm inclusive.",
+        "score": 0.8458,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2025
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.8244,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1500",
+        "base_id": "IS 1500",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1586",
+        "base_id": "IS 1586",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2328",
+        "base_id": "IS 2328",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2330",
+        "base_id": "IS 2330",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4748",
+        "base_id": "IS 4748",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 8910",
+        "base_id": "IS 8910",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2",
+        "base_id": "IS 2",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1762",
+        "base_id": "IS 1762",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10461",
+        "base_id": "IS 10461",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2022,
+      "superseded_by": "N/A",
+      "superseding_is": "N/A",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "Yes",
+      "qco_reference": "Stainless Steel Pipes and Tubes (Quality Control) Order, 2025 (DPIIT) - web source, not confirmed on BIS portal",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "IS 17876 welded stainless steel tube specification grades and tolerances",
+    "retrieval_query": "IS 17876 welded stainless steel tube specification grades and tolerances",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.8508,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8494,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 5504",
+        "standard_id": "IS 5504:2025",
+        "title": "Spiral Welded Pipes \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements of spiral seam welded steel pipe over 457 mm diameter and up to 3 250 mm diameter with wall thickness up to 25 mm inclusive.",
+        "score": 0.8354,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2025
+      },
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8295,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 9295",
+        "standard_id": "IS 9295:2024",
+        "title": "Steel Tubes for Idlers for Belt Conveyors \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements for steel tubes for idlers for belt conveyors.",
+        "score": 0.8153,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1586",
+        "base_id": "IS 1586",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1762",
+        "base_id": "IS 1762",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2328",
+        "base_id": "IS 2328",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2330",
+        "base_id": "IS 2330",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3073",
+        "base_id": "IS 3073",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10117",
+        "base_id": "IS 10117",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10461",
+        "base_id": "IS 10461",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 13177",
+        "base_id": "IS 13177",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 15262",
+        "base_id": "IS 15262",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2023,
+      "superseded_by": "N/A",
+      "superseding_is": "IS 6913:1973",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "Yes",
+      "qco_reference": "DPIIT Quality Control Order (exact title not verified)",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "is BIS certification mandatory for welded stainless steel pipes",
+    "retrieval_query": "is BIS certification mandatory for welded stainless steel pipes",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8585,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8381,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.8299,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 5504",
+        "standard_id": "IS 5504:2025",
+        "title": "Spiral Welded Pipes \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements of spiral seam welded steel pipe over 457 mm diameter and up to 3 250 mm diameter with wall thickness up to 25 mm inclusive.",
+        "score": 0.8298,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2025
+      },
+      {
+        "base_id": "IS 9295",
+        "standard_id": "IS 9295:2024",
+        "title": "Steel Tubes for Idlers for Belt Conveyors \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements for steel tubes for idlers for belt conveyors.",
+        "score": 0.798,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1500",
+        "base_id": "IS 1500",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1586",
+        "base_id": "IS 1586",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2328",
+        "base_id": "IS 2328",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2330",
+        "base_id": "IS 2330",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4748",
+        "base_id": "IS 4748",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 8910",
+        "base_id": "IS 8910",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2",
+        "base_id": "IS 2",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1762",
+        "base_id": "IS 1762",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10461",
+        "base_id": "IS 10461",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2022,
+      "superseded_by": "N/A",
+      "superseding_is": "N/A",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "Yes",
+      "qco_reference": "Stainless Steel Pipes and Tubes (Quality Control) Order, 2025 (DPIIT) - web source, not confirmed on BIS portal",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0938\u0947\u0935\u093e\u0913\u0902 \u0915\u0947 \u0932\u093f\u090f \u0938\u094d\u091f\u0947\u0928\u0932\u0947\u0938 \u0907\u0938\u094d\u092a\u093e\u0924 \u0935\u0947\u0932\u094d\u0921\u0947\u0921 \u092a\u093e\u0907\u092a \u0914\u0930 \u091f\u094d\u092f\u0942\u092c \u0915\u093e \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915",
+    "retrieval_query": "\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0938\u0947\u0935\u093e\u0913\u0902 \u0915\u0947 \u0932\u093f\u090f \u0938\u094d\u091f\u0947\u0928\u0932\u0947\u0938 \u0907\u0938\u094d\u092a\u093e\u0924 \u0935\u0947\u0932\u094d\u0921\u0947\u0921 \u092a\u093e\u0907\u092a \u0914\u0930 \u091f\u094d\u092f\u0942\u092c \u0915\u093e \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8714,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8581,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.82,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.8124,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 5504",
+        "standard_id": "IS 5504:2025",
+        "title": "Spiral Welded Pipes \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements of spiral seam welded steel pipe over 457 mm diameter and up to 3 250 mm diameter with wall thickness up to 25 mm inclusive.",
+        "score": 0.8122,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2025
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1500",
+        "base_id": "IS 1500",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1586",
+        "base_id": "IS 1586",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2328",
+        "base_id": "IS 2328",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2330",
+        "base_id": "IS 2330",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4748",
+        "base_id": "IS 4748",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 8910",
+        "base_id": "IS 8910",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2",
+        "base_id": "IS 2",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1762",
+        "base_id": "IS 1762",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10461",
+        "base_id": "IS 10461",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2022,
+      "superseded_by": "N/A",
+      "superseding_is": "N/A",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "Yes",
+      "qco_reference": "Stainless Steel Pipes and Tubes (Quality Control) Order, 2025 (DPIIT) - web source, not confirmed on BIS portal",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "\u0938\u094d\u091f\u0947\u0928\u0932\u0947\u0938 \u0938\u094d\u091f\u0940\u0932 \u0935\u0947\u0932\u094d\u0921\u0947\u0921 \u092a\u093e\u0907\u092a \u0915\u0947 \u0932\u093f\u090f \u092c\u0940\u0906\u0908\u090f\u0938 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0939\u0948 \u0915\u094d\u092f\u093e",
+    "retrieval_query": "\u0938\u094d\u091f\u0947\u0928\u0932\u0947\u0938 \u0938\u094d\u091f\u0940\u0932 \u0935\u0947\u0932\u094d\u0921\u0947\u0921 \u092a\u093e\u0907\u092a \u0915\u0947 \u0932\u093f\u090f \u092c\u0940\u0906\u0908\u090f\u0938 \u092a\u094d\u0930\u092e\u093e\u0923\u0928 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0939\u0948 \u0915\u094d\u092f\u093e",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8256,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8127,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 5504",
+        "standard_id": "IS 5504:2025",
+        "title": "Spiral Welded Pipes \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements of spiral seam welded steel pipe over 457 mm diameter and up to 3 250 mm diameter with wall thickness up to 25 mm inclusive.",
+        "score": 0.8039,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2025
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.7988,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 9295",
+        "standard_id": "IS 9295:2024",
+        "title": "Steel Tubes for Idlers for Belt Conveyors \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements for steel tubes for idlers for belt conveyors.",
+        "score": 0.7768,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1500",
+        "base_id": "IS 1500",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1586",
+        "base_id": "IS 1586",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2328",
+        "base_id": "IS 2328",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2330",
+        "base_id": "IS 2330",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4748",
+        "base_id": "IS 4748",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 8910",
+        "base_id": "IS 8910",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2",
+        "base_id": "IS 2",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1762",
+        "base_id": "IS 1762",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10461",
+        "base_id": "IS 10461",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2022,
+      "superseded_by": "N/A",
+      "superseding_is": "N/A",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "Yes",
+      "qco_reference": "Stainless Steel Pipes and Tubes (Quality Control) Order, 2025 (DPIIT) - web source, not confirmed on BIS portal",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "spiral welded steel pipe above 457 mm diameter specification",
+    "retrieval_query": "spiral welded steel pipe above 457 mm diameter specification",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 5504",
+        "standard_id": "IS 5504:2025",
+        "title": "Spiral Welded Pipes \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements of spiral seam welded steel pipe over 457 mm diameter and up to 3 250 mm diameter with wall thickness up to 25 mm inclusive.",
+        "score": 0.9079,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2025
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.8431,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8291,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.8246,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8133,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2025,
+      "superseded_by": "N/A",
+      "superseding_is": "IS 5504:1997",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "\u0938\u0930\u094d\u092a\u093f\u0932 \u0935\u0947\u0932\u094d\u0921\u0947\u0921 \u0907\u0938\u094d\u092a\u093e\u0924 \u092a\u093e\u0907\u092a \u0915\u0947 \u0932\u093f\u090f \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915",
+    "retrieval_query": "\u0938\u0930\u094d\u092a\u093f\u0932 \u0935\u0947\u0932\u094d\u0921\u0947\u0921 \u0907\u0938\u094d\u092a\u093e\u0924 \u092a\u093e\u0907\u092a \u0915\u0947 \u0932\u093f\u090f \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 5504",
+        "standard_id": "IS 5504:2025",
+        "title": "Spiral Welded Pipes \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements of spiral seam welded steel pipe over 457 mm diameter and up to 3 250 mm diameter with wall thickness up to 25 mm inclusive.",
+        "score": 0.8327,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2025
+      },
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.82,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8081,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.7971,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.7906,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2025,
+      "superseded_by": "N/A",
+      "superseding_is": "IS 5504:1997",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "steel tubes for idlers for belt conveyors standard",
+    "retrieval_query": "steel tubes for idlers for belt conveyors standard",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 9295",
+        "standard_id": "IS 9295:2024",
+        "title": "Steel Tubes for Idlers for Belt Conveyors \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements for steel tubes for idlers for belt conveyors.",
+        "score": 0.926,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.834,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8266,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8211,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 19559",
+        "standard_id": "IS 19559:2026",
+        "title": "Hot Rolled Alloy Steel Bars \u2014 Specification",
+        "scope_description": "This standard covers the requirements for hot rolled alloy steel bars for the production of bright bars and machine parts for general engineering applications. It applies to all types of hot-rolled products in straight lengths in sections that are uniform throughout their length. It does not apply to the grades of alloy steel bars covered in other Indian Standards such as IS 1875, IS 5517, IS 4432, IS 3930, IS 3748, IS 9550, IS 3195, IS 3431, IS 11169 (Part 1), IS 6603 and IS 11169 (Part 2).",
+        "score": 0.8095,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2062",
+        "base_id": "IS 2062",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2328",
+        "base_id": "IS 2328",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2335",
+        "base_id": "IS 2335",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4711",
+        "base_id": "IS 4711",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10748",
+        "base_id": "IS 10748",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2024,
+      "superseded_by": "N/A",
+      "superseding_is": "IS 9295:1983",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "\u092c\u0947\u0932\u094d\u091f \u0915\u0928\u094d\u0935\u0947\u092f\u0930 \u0915\u0947 \u0906\u0907\u0921\u0932\u0930 \u0915\u0947 \u0932\u093f\u090f \u0907\u0938\u094d\u092a\u093e\u0924 \u091f\u094d\u092f\u0942\u092c \u092e\u093e\u0928\u0915",
+    "retrieval_query": "\u092c\u0947\u0932\u094d\u091f \u0915\u0928\u094d\u0935\u0947\u092f\u0930 \u0915\u0947 \u0906\u0907\u0921\u0932\u0930 \u0915\u0947 \u0932\u093f\u090f \u0907\u0938\u094d\u092a\u093e\u0924 \u091f\u094d\u092f\u0942\u092c \u092e\u093e\u0928\u0915",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 9295",
+        "standard_id": "IS 9295:2024",
+        "title": "Steel Tubes for Idlers for Belt Conveyors \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements for steel tubes for idlers for belt conveyors.",
+        "score": 0.8333,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8024,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.7994,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.7926,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 5504",
+        "standard_id": "IS 5504:2025",
+        "title": "Spiral Welded Pipes \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements of spiral seam welded steel pipe over 457 mm diameter and up to 3 250 mm diameter with wall thickness up to 25 mm inclusive.",
+        "score": 0.7919,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2025
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2062",
+        "base_id": "IS 2062",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2328",
+        "base_id": "IS 2328",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2335",
+        "base_id": "IS 2335",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4711",
+        "base_id": "IS 4711",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10748",
+        "base_id": "IS 10748",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2024,
+      "superseded_by": "N/A",
+      "superseding_is": "IS 9295:1983",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "Indian Standard for hot rolled alloy steel bars for bright bars and machine parts",
+    "retrieval_query": "Indian Standard for hot rolled alloy steel bars for bright bars and machine parts",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 19559",
+        "standard_id": "IS 19559:2026",
+        "title": "Hot Rolled Alloy Steel Bars \u2014 Specification",
+        "scope_description": "This standard covers the requirements for hot rolled alloy steel bars for the production of bright bars and machine parts for general engineering applications. It applies to all types of hot-rolled products in straight lengths in sections that are uniform throughout their length. It does not apply to the grades of alloy steel bars covered in other Indian Standards such as IS 1875, IS 5517, IS 4432, IS 3930, IS 3748, IS 9550, IS 3195, IS 3431, IS 11169 (Part 1), IS 6603 and IS 11169 (Part 2).",
+        "score": 0.9026,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.8151,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 11286",
+        "standard_id": "IS 11286:2024",
+        "title": "Corrosion Resistant High Alloy Steel, Nickel Base and Cobalt Base Investment Castings for Severe Applications \u2014 Specification",
+        "scope_description": "This standard covers the requirements for corrosion resistant high alloy steel, nickel base and cobalt base investment castings for severe corrosion applications.",
+        "score": 0.7992,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 19773",
+        "standard_id": "IS 19773:2026",
+        "title": "High Chrome Grinding Media Ball for Cement Mills \u2014 Specification",
+        "scope_description": "This standard covers the requirements for high chrome grinding media ball for cement mills.",
+        "score": 0.7965,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 3018",
+        "standard_id": "IS 3018:2026",
+        "title": "Standard Silica Sand for Raw Material Testing in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the quality requirements of standard sand to be used for testing of foundry raw materials.",
+        "score": 0.7903,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1500",
+        "base_id": "IS 1500",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1762",
+        "base_id": "IS 1762",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3739",
+        "base_id": "IS 3739",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4075",
+        "base_id": "IS 4075",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4163",
+        "base_id": "IS 4163",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4748",
+        "base_id": "IS 4748",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 6396",
+        "base_id": "IS 6396",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 8811",
+        "base_id": "IS 8811",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 8910",
+        "base_id": "IS 8910",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10138",
+        "base_id": "IS 10138",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2",
+        "base_id": "IS 2",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 14650",
+        "base_id": "IS 14650",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 7283",
+        "base_id": "IS 7283",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1875",
+        "base_id": "IS 1875",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 5517",
+        "base_id": "IS 5517",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4432",
+        "base_id": "IS 4432",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3930",
+        "base_id": "IS 3930",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3748",
+        "base_id": "IS 3748",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 9550",
+        "base_id": "IS 9550",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3195",
+        "base_id": "IS 3195",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3431",
+        "base_id": "IS 3431",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 11169",
+        "base_id": "IS 11169",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 6603",
+        "base_id": "IS 6603",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2026,
+      "superseded_by": "N/A",
+      "superseding_is": "N/A",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "IS 19559 alloy steel bar grade designation and chemical composition",
+    "retrieval_query": "IS 19559 alloy steel bar grade designation and chemical composition",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 19559",
+        "standard_id": "IS 19559:2026",
+        "title": "Hot Rolled Alloy Steel Bars \u2014 Specification",
+        "scope_description": "This standard covers the requirements for hot rolled alloy steel bars for the production of bright bars and machine parts for general engineering applications. It applies to all types of hot-rolled products in straight lengths in sections that are uniform throughout their length. It does not apply to the grades of alloy steel bars covered in other Indian Standards such as IS 1875, IS 5517, IS 4432, IS 3930, IS 3748, IS 9550, IS 3195, IS 3431, IS 11169 (Part 1), IS 6603 and IS 11169 (Part 2).",
+        "score": 0.8462,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 11286",
+        "standard_id": "IS 11286:2024",
+        "title": "Corrosion Resistant High Alloy Steel, Nickel Base and Cobalt Base Investment Castings for Severe Applications \u2014 Specification",
+        "scope_description": "This standard covers the requirements for corrosion resistant high alloy steel, nickel base and cobalt base investment castings for severe corrosion applications.",
+        "score": 0.7981,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.794,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.7804,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 9295",
+        "standard_id": "IS 9295:2024",
+        "title": "Steel Tubes for Idlers for Belt Conveyors \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements for steel tubes for idlers for belt conveyors.",
+        "score": 0.7737,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1500",
+        "base_id": "IS 1500",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1762",
+        "base_id": "IS 1762",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3739",
+        "base_id": "IS 3739",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4075",
+        "base_id": "IS 4075",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4163",
+        "base_id": "IS 4163",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4748",
+        "base_id": "IS 4748",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 6396",
+        "base_id": "IS 6396",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 8811",
+        "base_id": "IS 8811",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 8910",
+        "base_id": "IS 8910",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10138",
+        "base_id": "IS 10138",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2",
+        "base_id": "IS 2",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 14650",
+        "base_id": "IS 14650",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 7283",
+        "base_id": "IS 7283",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1875",
+        "base_id": "IS 1875",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 5517",
+        "base_id": "IS 5517",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4432",
+        "base_id": "IS 4432",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3930",
+        "base_id": "IS 3930",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3748",
+        "base_id": "IS 3748",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 9550",
+        "base_id": "IS 9550",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3195",
+        "base_id": "IS 3195",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3431",
+        "base_id": "IS 3431",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 11169",
+        "base_id": "IS 11169",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 6603",
+        "base_id": "IS 6603",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2026,
+      "superseded_by": "N/A",
+      "superseding_is": "N/A",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "\u0924\u092a\u094d\u0924 \u0935\u0947\u0932\u094d\u0932\u093f\u0924 \u092e\u093f\u0936\u094d\u0930 \u0927\u093e\u0924\u0941 \u0907\u0938\u094d\u092a\u093e\u0924 \u0915\u0947 \u091b\u0921\u093c\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915",
+    "retrieval_query": "\u0924\u092a\u094d\u0924 \u0935\u0947\u0932\u094d\u0932\u093f\u0924 \u092e\u093f\u0936\u094d\u0930 \u0927\u093e\u0924\u0941 \u0907\u0938\u094d\u092a\u093e\u0924 \u0915\u0947 \u091b\u0921\u093c\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.8147,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 19559",
+        "standard_id": "IS 19559:2026",
+        "title": "Hot Rolled Alloy Steel Bars \u2014 Specification",
+        "scope_description": "This standard covers the requirements for hot rolled alloy steel bars for the production of bright bars and machine parts for general engineering applications. It applies to all types of hot-rolled products in straight lengths in sections that are uniform throughout their length. It does not apply to the grades of alloy steel bars covered in other Indian Standards such as IS 1875, IS 5517, IS 4432, IS 3930, IS 3748, IS 9550, IS 3195, IS 3431, IS 11169 (Part 1), IS 6603 and IS 11169 (Part 2).",
+        "score": 0.81,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8042,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 5504",
+        "standard_id": "IS 5504:2025",
+        "title": "Spiral Welded Pipes \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements of spiral seam welded steel pipe over 457 mm diameter and up to 3 250 mm diameter with wall thickness up to 25 mm inclusive.",
+        "score": 0.794,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2025
+      },
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.7903,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 209",
+        "base_id": "IS 209",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 277",
+        "base_id": "IS 277",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 513",
+        "base_id": "IS 513",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2633",
+        "base_id": "IS 2633",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10748",
+        "base_id": "IS 10748",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 13229",
+        "base_id": "IS 13229",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2024,
+      "superseded_by": "N/A",
+      "superseding_is": "N/A",
+      "amendments": [
+        {
+          "amendment_id": "AMD-005",
+          "amendment_number": 1,
+          "date_issued": "July 2025",
+          "summary_of_change": "Substituted text for twist measurement reference (clause 11.7, now referring to Fig. 6); revised galvanizing coating requirement in clause 13.2 (zinc coating on pre-galvanized sheet/strip now excludes weld portion, coating of weld section by mutual agreement); revised clause 15.2 to reference IS 1608 (Part 1) and clarify yield strength as Rp0.2 (0.2 percent proof strength) where yield point is not distinctive."
+        },
+        {
+          "amendment_id": "AMD-006",
+          "amendment_number": 2,
+          "date_issued": "August 2026",
+          "summary_of_change": "Deleted phrase '(from where this requirement has extracted)' in clause 11.2; substituted text in clause 11.7 para 1 (twist determination methods, at manufacturer's discretion); substituted clause 11.7 para 4 (twist measurement reference to Fig. 6)."
+        }
+      ]
+    },
+    "certification": {
+      "certification_name": "N/A",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "cold formed welded carbon steel square and rectangular hollow sections specification",
+    "retrieval_query": "cold formed welded carbon steel square and rectangular hollow sections specification",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.9345,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.8143,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 5504",
+        "standard_id": "IS 5504:2025",
+        "title": "Spiral Welded Pipes \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements of spiral seam welded steel pipe over 457 mm diameter and up to 3 250 mm diameter with wall thickness up to 25 mm inclusive.",
+        "score": 0.8089,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2025
+      },
+      {
+        "base_id": "IS 19559",
+        "standard_id": "IS 19559:2026",
+        "title": "Hot Rolled Alloy Steel Bars \u2014 Specification",
+        "scope_description": "This standard covers the requirements for hot rolled alloy steel bars for the production of bright bars and machine parts for general engineering applications. It applies to all types of hot-rolled products in straight lengths in sections that are uniform throughout their length. It does not apply to the grades of alloy steel bars covered in other Indian Standards such as IS 1875, IS 5517, IS 4432, IS 3930, IS 3748, IS 9550, IS 3195, IS 3431, IS 11169 (Part 1), IS 6603 and IS 11169 (Part 2).",
+        "score": 0.8056,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.801,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 209",
+        "base_id": "IS 209",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 277",
+        "base_id": "IS 277",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 513",
+        "base_id": "IS 513",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2633",
+        "base_id": "IS 2633",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10748",
+        "base_id": "IS 10748",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 13229",
+        "base_id": "IS 13229",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2024,
+      "superseded_by": "N/A",
+      "superseding_is": "N/A",
+      "amendments": [
+        {
+          "amendment_id": "AMD-005",
+          "amendment_number": 1,
+          "date_issued": "July 2025",
+          "summary_of_change": "Substituted text for twist measurement reference (clause 11.7, now referring to Fig. 6); revised galvanizing coating requirement in clause 13.2 (zinc coating on pre-galvanized sheet/strip now excludes weld portion, coating of weld section by mutual agreement); revised clause 15.2 to reference IS 1608 (Part 1) and clarify yield strength as Rp0.2 (0.2 percent proof strength) where yield point is not distinctive."
+        },
+        {
+          "amendment_id": "AMD-006",
+          "amendment_number": 2,
+          "date_issued": "August 2026",
+          "summary_of_change": "Deleted phrase '(from where this requirement has extracted)' in clause 11.2; substituted text in clause 11.7 para 1 (twist determination methods, at manufacturer's discretion); substituted clause 11.7 para 4 (twist measurement reference to Fig. 6)."
+        }
+      ]
+    },
+    "certification": {
+      "certification_name": "N/A",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "\u0915\u094b\u0932\u094d\u0921 \u092b\u0949\u0930\u094d\u092e\u094d\u0921 \u0935\u0947\u0932\u094d\u0921\u0947\u0921 \u0915\u093e\u0930\u094d\u092c\u0928 \u0938\u094d\u091f\u0940\u0932 \u0938\u094d\u0915\u094d\u0935\u093e\u092f\u0930 \u0914\u0930 \u0906\u092f\u0924\u093e\u0915\u093e\u0930 \u0916\u094b\u0916\u0932\u0947 \u0938\u0947\u0915\u094d\u0936\u0928 \u0915\u0947 \u0932\u093f\u090f \u092c\u0940\u0906\u0908\u090f\u0938 \u092e\u093e\u0928\u0915",
+    "retrieval_query": "\u0915\u094b\u0932\u094d\u0921 \u092b\u0949\u0930\u094d\u092e\u094d\u0921 \u0935\u0947\u0932\u094d\u0921\u0947\u0921 \u0915\u093e\u0930\u094d\u092c\u0928 \u0938\u094d\u091f\u0940\u0932 \u0938\u094d\u0915\u094d\u0935\u093e\u092f\u0930 \u0914\u0930 \u0906\u092f\u0924\u093e\u0915\u093e\u0930 \u0916\u094b\u0916\u0932\u0947 \u0938\u0947\u0915\u094d\u0936\u0928 \u0915\u0947 \u0932\u093f\u090f \u092c\u0940\u0906\u0908\u090f\u0938 \u092e\u093e\u0928\u0915",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.8663,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.7918,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 19559",
+        "standard_id": "IS 19559:2026",
+        "title": "Hot Rolled Alloy Steel Bars \u2014 Specification",
+        "scope_description": "This standard covers the requirements for hot rolled alloy steel bars for the production of bright bars and machine parts for general engineering applications. It applies to all types of hot-rolled products in straight lengths in sections that are uniform throughout their length. It does not apply to the grades of alloy steel bars covered in other Indian Standards such as IS 1875, IS 5517, IS 4432, IS 3930, IS 3748, IS 9550, IS 3195, IS 3431, IS 11169 (Part 1), IS 6603 and IS 11169 (Part 2).",
+        "score": 0.7899,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 11286",
+        "standard_id": "IS 11286:2024",
+        "title": "Corrosion Resistant High Alloy Steel, Nickel Base and Cobalt Base Investment Castings for Severe Applications \u2014 Specification",
+        "scope_description": "This standard covers the requirements for corrosion resistant high alloy steel, nickel base and cobalt base investment castings for severe corrosion applications.",
+        "score": 0.7765,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.7762,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 209",
+        "base_id": "IS 209",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 277",
+        "base_id": "IS 277",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 513",
+        "base_id": "IS 513",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2633",
+        "base_id": "IS 2633",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10748",
+        "base_id": "IS 10748",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 13229",
+        "base_id": "IS 13229",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2024,
+      "superseded_by": "N/A",
+      "superseding_is": "N/A",
+      "amendments": [
+        {
+          "amendment_id": "AMD-005",
+          "amendment_number": 1,
+          "date_issued": "July 2025",
+          "summary_of_change": "Substituted text for twist measurement reference (clause 11.7, now referring to Fig. 6); revised galvanizing coating requirement in clause 13.2 (zinc coating on pre-galvanized sheet/strip now excludes weld portion, coating of weld section by mutual agreement); revised clause 15.2 to reference IS 1608 (Part 1) and clarify yield strength as Rp0.2 (0.2 percent proof strength) where yield point is not distinctive."
+        },
+        {
+          "amendment_id": "AMD-006",
+          "amendment_number": 2,
+          "date_issued": "August 2026",
+          "summary_of_change": "Deleted phrase '(from where this requirement has extracted)' in clause 11.2; substituted text in clause 11.7 para 1 (twist determination methods, at manufacturer's discretion); substituted clause 11.7 para 4 (twist measurement reference to Fig. 6)."
+        }
+      ]
+    },
+    "certification": {
+      "certification_name": "N/A",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "stainless steel tubes for food and beverage industry",
+    "retrieval_query": "stainless steel tubes for food and beverage industry",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.9072,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8555,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8548,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 9295",
+        "standard_id": "IS 9295:2024",
+        "title": "Steel Tubes for Idlers for Belt Conveyors \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements for steel tubes for idlers for belt conveyors.",
+        "score": 0.8343,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.7947,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1586",
+        "base_id": "IS 1586",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1762",
+        "base_id": "IS 1762",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2328",
+        "base_id": "IS 2328",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2330",
+        "base_id": "IS 2330",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3073",
+        "base_id": "IS 3073",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10117",
+        "base_id": "IS 10117",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10461",
+        "base_id": "IS 10461",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 13177",
+        "base_id": "IS 13177",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 15262",
+        "base_id": "IS 15262",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2023,
+      "superseded_by": "N/A",
+      "superseding_is": "IS 6913:1973",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "Yes",
+      "qco_reference": "DPIIT Quality Control Order (exact title not verified)",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "\u0916\u093e\u0926\u094d\u092f \u0914\u0930 \u092a\u0947\u092f \u0909\u0926\u094d\u092f\u094b\u0917 \u0915\u0947 \u0932\u093f\u090f \u0938\u094d\u091f\u0947\u0928\u0932\u0947\u0938 \u0907\u0938\u094d\u092a\u093e\u0924 \u0928\u0932\u093f\u0915\u093e\u090f\u0902",
+    "retrieval_query": "\u0916\u093e\u0926\u094d\u092f \u0914\u0930 \u092a\u0947\u092f \u0909\u0926\u094d\u092f\u094b\u0917 \u0915\u0947 \u0932\u093f\u090f \u0938\u094d\u091f\u0947\u0928\u0932\u0947\u0938 \u0907\u0938\u094d\u092a\u093e\u0924 \u0928\u0932\u093f\u0915\u093e\u090f\u0902",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.8512,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8184,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8151,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 9295",
+        "standard_id": "IS 9295:2024",
+        "title": "Steel Tubes for Idlers for Belt Conveyors \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements for steel tubes for idlers for belt conveyors.",
+        "score": 0.7977,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.7925,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1586",
+        "base_id": "IS 1586",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1762",
+        "base_id": "IS 1762",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2328",
+        "base_id": "IS 2328",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2330",
+        "base_id": "IS 2330",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3073",
+        "base_id": "IS 3073",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10117",
+        "base_id": "IS 10117",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10461",
+        "base_id": "IS 10461",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 13177",
+        "base_id": "IS 13177",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 15262",
+        "base_id": "IS 15262",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2023,
+      "superseded_by": "N/A",
+      "superseding_is": "IS 6913:1973",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "Yes",
+      "qco_reference": "DPIIT Quality Control Order (exact title not verified)",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "seamless stainless steel pipes for general services standard",
+    "retrieval_query": "seamless stainless steel pipes for general services standard",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.9039,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8787,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.8348,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 5504",
+        "standard_id": "IS 5504:2025",
+        "title": "Spiral Welded Pipes \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements of spiral seam welded steel pipe over 457 mm diameter and up to 3 250 mm diameter with wall thickness up to 25 mm inclusive.",
+        "score": 0.8123,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2025
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.799,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1500",
+        "base_id": "IS 1500",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1586",
+        "base_id": "IS 1586",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2328",
+        "base_id": "IS 2328",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4748",
+        "base_id": "IS 4748",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 8910",
+        "base_id": "IS 8910",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2022,
+      "superseded_by": "N/A",
+      "superseding_is": "N/A",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "Yes",
+      "qco_reference": "DPIIT Quality Control Order (exact title not verified)",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0938\u0947\u0935\u093e\u0913\u0902 \u0915\u0947 \u0932\u093f\u090f \u0938\u094d\u091f\u0947\u0928\u0932\u0947\u0938 \u0907\u0938\u094d\u092a\u093e\u0924 \u0938\u0940\u092e\u0932\u0947\u0938 \u092a\u093e\u0907\u092a \u0915\u093e \u092e\u093e\u0928\u0915",
+    "retrieval_query": "\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0938\u0947\u0935\u093e\u0913\u0902 \u0915\u0947 \u0932\u093f\u090f \u0938\u094d\u091f\u0947\u0928\u0932\u0947\u0938 \u0907\u0938\u094d\u092a\u093e\u0924 \u0938\u0940\u092e\u0932\u0947\u0938 \u092a\u093e\u0907\u092a \u0915\u093e \u092e\u093e\u0928\u0915",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 17875",
+        "standard_id": "IS 17875:2022",
+        "title": "Stainless Steel Seamless Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless stainless steel pipes and tubes for general services. This standard does not specify requirements of seamless Stainless Steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8481,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.8446,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.8054,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 5504",
+        "standard_id": "IS 5504:2025",
+        "title": "Spiral Welded Pipes \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements of spiral seam welded steel pipe over 457 mm diameter and up to 3 250 mm diameter with wall thickness up to 25 mm inclusive.",
+        "score": 0.805,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2025
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.795,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1500",
+        "base_id": "IS 1500",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1586",
+        "base_id": "IS 1586",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2328",
+        "base_id": "IS 2328",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 4748",
+        "base_id": "IS 4748",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 8910",
+        "base_id": "IS 8910",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2022,
+      "superseded_by": "N/A",
+      "superseding_is": "N/A",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "Yes",
+      "qco_reference": "DPIIT Quality Control Order (exact title not verified)",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "high chrome grinding media ball specification for cement mills",
+    "retrieval_query": "high chrome grinding media ball specification for cement mills",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 19773",
+        "standard_id": "IS 19773:2026",
+        "title": "High Chrome Grinding Media Ball for Cement Mills \u2014 Specification",
+        "scope_description": "This standard covers the requirements for high chrome grinding media ball for cement mills.",
+        "score": 0.9544,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 19559",
+        "standard_id": "IS 19559:2026",
+        "title": "Hot Rolled Alloy Steel Bars \u2014 Specification",
+        "scope_description": "This standard covers the requirements for hot rolled alloy steel bars for the production of bright bars and machine parts for general engineering applications. It applies to all types of hot-rolled products in straight lengths in sections that are uniform throughout their length. It does not apply to the grades of alloy steel bars covered in other Indian Standards such as IS 1875, IS 5517, IS 4432, IS 3930, IS 3748, IS 9550, IS 3195, IS 3431, IS 11169 (Part 1), IS 6603 and IS 11169 (Part 2).",
+        "score": 0.8074,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 3018",
+        "standard_id": "IS 3018:2026",
+        "title": "Standard Silica Sand for Raw Material Testing in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the quality requirements of standard sand to be used for testing of foundry raw materials.",
+        "score": 0.8014,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 11286",
+        "standard_id": "IS 11286:2024",
+        "title": "Corrosion Resistant High Alloy Steel, Nickel Base and Cobalt Base Investment Castings for Severe Applications \u2014 Specification",
+        "scope_description": "This standard covers the requirements for corrosion resistant high alloy steel, nickel base and cobalt base investment castings for severe corrosion applications.",
+        "score": 0.7951,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 3339",
+        "standard_id": "IS 3339:2024",
+        "title": "Silica Flour for Use in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the requirements for silica flour for use in foundries.",
+        "score": 0.7807,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1586",
+        "base_id": "IS 1586",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2763",
+        "base_id": "IS 2763",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3343",
+        "base_id": "IS 3343",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3658",
+        "base_id": "IS 3658",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3703",
+        "base_id": "IS 3703",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 7754",
+        "base_id": "IS 7754",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2026,
+      "superseded_by": "N/A",
+      "superseding_is": "N/A",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "\u0938\u0940\u092e\u0947\u0902\u091f \u092e\u093f\u0932\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0909\u091a\u094d\u091a \u0915\u094d\u0930\u094b\u092e \u0917\u094d\u0930\u093e\u0907\u0902\u0921\u093f\u0902\u0917 \u092e\u0940\u0921\u093f\u092f\u093e \u092c\u0949\u0932 \u0915\u093e \u092e\u093e\u0928\u0915",
+    "retrieval_query": "\u0938\u0940\u092e\u0947\u0902\u091f \u092e\u093f\u0932\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0909\u091a\u094d\u091a \u0915\u094d\u0930\u094b\u092e \u0917\u094d\u0930\u093e\u0907\u0902\u0921\u093f\u0902\u0917 \u092e\u0940\u0921\u093f\u092f\u093e \u092c\u0949\u0932 \u0915\u093e \u092e\u093e\u0928\u0915",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 19773",
+        "standard_id": "IS 19773:2026",
+        "title": "High Chrome Grinding Media Ball for Cement Mills \u2014 Specification",
+        "scope_description": "This standard covers the requirements for high chrome grinding media ball for cement mills.",
+        "score": 0.883,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 3018",
+        "standard_id": "IS 3018:2026",
+        "title": "Standard Silica Sand for Raw Material Testing in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the quality requirements of standard sand to be used for testing of foundry raw materials.",
+        "score": 0.8034,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 11286",
+        "standard_id": "IS 11286:2024",
+        "title": "Corrosion Resistant High Alloy Steel, Nickel Base and Cobalt Base Investment Castings for Severe Applications \u2014 Specification",
+        "scope_description": "This standard covers the requirements for corrosion resistant high alloy steel, nickel base and cobalt base investment castings for severe corrosion applications.",
+        "score": 0.7863,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 19559",
+        "standard_id": "IS 19559:2026",
+        "title": "Hot Rolled Alloy Steel Bars \u2014 Specification",
+        "scope_description": "This standard covers the requirements for hot rolled alloy steel bars for the production of bright bars and machine parts for general engineering applications. It applies to all types of hot-rolled products in straight lengths in sections that are uniform throughout their length. It does not apply to the grades of alloy steel bars covered in other Indian Standards such as IS 1875, IS 5517, IS 4432, IS 3930, IS 3748, IS 9550, IS 3195, IS 3431, IS 11169 (Part 1), IS 6603 and IS 11169 (Part 2).",
+        "score": 0.786,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 3339",
+        "standard_id": "IS 3339:2024",
+        "title": "Silica Flour for Use in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the requirements for silica flour for use in foundries.",
+        "score": 0.7813,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1586",
+        "base_id": "IS 1586",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1956",
+        "base_id": "IS 1956",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2763",
+        "base_id": "IS 2763",
+        "title": "N/A",
+        "relation_type": "Terminology",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3343",
+        "base_id": "IS 3343",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3658",
+        "base_id": "IS 3658",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3703",
+        "base_id": "IS 3703",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 7754",
+        "base_id": "IS 7754",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2026,
+      "superseded_by": "N/A",
+      "superseding_is": "N/A",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "standard silica sand for testing foundry raw materials",
+    "retrieval_query": "standard silica sand for testing foundry raw materials",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 3018",
+        "standard_id": "IS 3018:2026",
+        "title": "Standard Silica Sand for Raw Material Testing in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the quality requirements of standard sand to be used for testing of foundry raw materials.",
+        "score": 0.9441,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 3339",
+        "standard_id": "IS 3339:2024",
+        "title": "Silica Flour for Use in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the requirements for silica flour for use in foundries.",
+        "score": 0.8759,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 19773",
+        "standard_id": "IS 19773:2026",
+        "title": "High Chrome Grinding Media Ball for Cement Mills \u2014 Specification",
+        "scope_description": "This standard covers the requirements for high chrome grinding media ball for cement mills.",
+        "score": 0.8024,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 19559",
+        "standard_id": "IS 19559:2026",
+        "title": "Hot Rolled Alloy Steel Bars \u2014 Specification",
+        "scope_description": "This standard covers the requirements for hot rolled alloy steel bars for the production of bright bars and machine parts for general engineering applications. It applies to all types of hot-rolled products in straight lengths in sections that are uniform throughout their length. It does not apply to the grades of alloy steel bars covered in other Indian Standards such as IS 1875, IS 5517, IS 4432, IS 3930, IS 3748, IS 9550, IS 3195, IS 3431, IS 11169 (Part 1), IS 6603 and IS 11169 (Part 2).",
+        "score": 0.8001,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.7886,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 460",
+        "base_id": "IS 460",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1811",
+        "base_id": "IS 1811",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1918",
+        "base_id": "IS 1918",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1987",
+        "base_id": "IS 1987",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2026,
+      "superseded_by": "N/A",
+      "superseding_is": "IS 3018:1977",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "\u092b\u093e\u0909\u0902\u0921\u094d\u0930\u0940 \u092e\u0947\u0902 \u0915\u091a\u094d\u091a\u0947 \u092e\u093e\u0932 \u0915\u0947 \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0915\u0947 \u0932\u093f\u090f \u092e\u093e\u0928\u0915 \u0938\u093f\u0932\u093f\u0915\u093e \u0930\u0947\u0924",
+    "retrieval_query": "\u092b\u093e\u0909\u0902\u0921\u094d\u0930\u0940 \u092e\u0947\u0902 \u0915\u091a\u094d\u091a\u0947 \u092e\u093e\u0932 \u0915\u0947 \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0915\u0947 \u0932\u093f\u090f \u092e\u093e\u0928\u0915 \u0938\u093f\u0932\u093f\u0915\u093e \u0930\u0947\u0924",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 3018",
+        "standard_id": "IS 3018:2026",
+        "title": "Standard Silica Sand for Raw Material Testing in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the quality requirements of standard sand to be used for testing of foundry raw materials.",
+        "score": 0.8676,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 3339",
+        "standard_id": "IS 3339:2024",
+        "title": "Silica Flour for Use in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the requirements for silica flour for use in foundries.",
+        "score": 0.8257,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.7763,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 11286",
+        "standard_id": "IS 11286:2024",
+        "title": "Corrosion Resistant High Alloy Steel, Nickel Base and Cobalt Base Investment Castings for Severe Applications \u2014 Specification",
+        "scope_description": "This standard covers the requirements for corrosion resistant high alloy steel, nickel base and cobalt base investment castings for severe corrosion applications.",
+        "score": 0.7729,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.7676,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 460",
+        "base_id": "IS 460",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1811",
+        "base_id": "IS 1811",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1918",
+        "base_id": "IS 1918",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1987",
+        "base_id": "IS 1987",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2026,
+      "superseded_by": "N/A",
+      "superseding_is": "IS 3018:1977",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "silica flour for foundries specification",
+    "retrieval_query": "silica flour for foundries specification",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 3339",
+        "standard_id": "IS 3339:2024",
+        "title": "Silica Flour for Use in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the requirements for silica flour for use in foundries.",
+        "score": 0.9284,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 3018",
+        "standard_id": "IS 3018:2026",
+        "title": "Standard Silica Sand for Raw Material Testing in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the quality requirements of standard sand to be used for testing of foundry raw materials.",
+        "score": 0.9033,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 19773",
+        "standard_id": "IS 19773:2026",
+        "title": "High Chrome Grinding Media Ball for Cement Mills \u2014 Specification",
+        "scope_description": "This standard covers the requirements for high chrome grinding media ball for cement mills.",
+        "score": 0.8082,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.7997,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 19559",
+        "standard_id": "IS 19559:2026",
+        "title": "Hot Rolled Alloy Steel Bars \u2014 Specification",
+        "scope_description": "This standard covers the requirements for hot rolled alloy steel bars for the production of bright bars and machine parts for general engineering applications. It applies to all types of hot-rolled products in straight lengths in sections that are uniform throughout their length. It does not apply to the grades of alloy steel bars covered in other Indian Standards such as IS 1875, IS 5517, IS 4432, IS 3930, IS 3748, IS 9550, IS 3195, IS 3431, IS 11169 (Part 1), IS 6603 and IS 11169 (Part 2).",
+        "score": 0.7966,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 460",
+        "base_id": "IS 460",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1811",
+        "base_id": "IS 1811",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1917",
+        "base_id": "IS 1917",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1918",
+        "base_id": "IS 1918",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 5461",
+        "base_id": "IS 5461",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2024,
+      "superseded_by": "N/A",
+      "superseding_is": "IS 3339:1975",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "\u0922\u0932\u093e\u0908 \u0915\u0947 \u0932\u093f\u090f \u0938\u093f\u0932\u093f\u0915\u093e \u092a\u093e\u0909\u0921\u0930 \u0915\u093e \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915",
+    "retrieval_query": "\u0922\u0932\u093e\u0908 \u0915\u0947 \u0932\u093f\u090f \u0938\u093f\u0932\u093f\u0915\u093e \u092a\u093e\u0909\u0921\u0930 \u0915\u093e \u092d\u093e\u0930\u0924\u0940\u092f \u092e\u093e\u0928\u0915",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 3018",
+        "standard_id": "IS 3018:2026",
+        "title": "Standard Silica Sand for Raw Material Testing in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the quality requirements of standard sand to be used for testing of foundry raw materials.",
+        "score": 0.8039,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 3339",
+        "standard_id": "IS 3339:2024",
+        "title": "Silica Flour for Use in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the requirements for silica flour for use in foundries.",
+        "score": 0.7991,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.7924,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 19773",
+        "standard_id": "IS 19773:2026",
+        "title": "High Chrome Grinding Media Ball for Cement Mills \u2014 Specification",
+        "scope_description": "This standard covers the requirements for high chrome grinding media ball for cement mills.",
+        "score": 0.7809,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 5504",
+        "standard_id": "IS 5504:2025",
+        "title": "Spiral Welded Pipes \u2014 Specification (Second Revision)",
+        "scope_description": "This standard covers the requirements of spiral seam welded steel pipe over 457 mm diameter and up to 3 250 mm diameter with wall thickness up to 25 mm inclusive.",
+        "score": 0.7757,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2025
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 460",
+        "base_id": "IS 460",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1387",
+        "base_id": "IS 1387",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1811",
+        "base_id": "IS 1811",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1918",
+        "base_id": "IS 1918",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1987",
+        "base_id": "IS 1987",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2026,
+      "superseded_by": "N/A",
+      "superseding_is": "IS 3018:1977",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "investment castings specification for severe corrosion applications",
+    "retrieval_query": "investment castings specification for severe corrosion applications",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 11286",
+        "standard_id": "IS 11286:2024",
+        "title": "Corrosion Resistant High Alloy Steel, Nickel Base and Cobalt Base Investment Castings for Severe Applications \u2014 Specification",
+        "scope_description": "This standard covers the requirements for corrosion resistant high alloy steel, nickel base and cobalt base investment castings for severe corrosion applications.",
+        "score": 0.9094,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 19559",
+        "standard_id": "IS 19559:2026",
+        "title": "Hot Rolled Alloy Steel Bars \u2014 Specification",
+        "scope_description": "This standard covers the requirements for hot rolled alloy steel bars for the production of bright bars and machine parts for general engineering applications. It applies to all types of hot-rolled products in straight lengths in sections that are uniform throughout their length. It does not apply to the grades of alloy steel bars covered in other Indian Standards such as IS 1875, IS 5517, IS 4432, IS 3930, IS 3748, IS 9550, IS 3195, IS 3431, IS 11169 (Part 1), IS 6603 and IS 11169 (Part 2).",
+        "score": 0.8034,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.8004,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.7946,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 17876",
+        "standard_id": "IS 17876:2022",
+        "title": "Stainless Steel Welded Pipes and Tubes for General Services \u2014 Specification",
+        "scope_description": "This standard covers the requirements for welded stainless steel pipes and tubes for general services. It does not specify requirements of welded stainless steel pipes and tubes intended for distinct purposes, which are covered by separate Indian Standards.",
+        "score": 0.7911,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2022
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1500",
+        "base_id": "IS 1500",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1598",
+        "base_id": "IS 1598",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1599",
+        "base_id": "IS 1599",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1741",
+        "base_id": "IS 1741",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2595",
+        "base_id": "IS 2595",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3407",
+        "base_id": "IS 3407",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3664",
+        "base_id": "IS 3664",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3703",
+        "base_id": "IS 3703",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 5530",
+        "base_id": "IS 5530",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 6601",
+        "base_id": "IS 6601",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 6907",
+        "base_id": "IS 6907",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 9565",
+        "base_id": "IS 9565",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10724",
+        "base_id": "IS 10724",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 11166",
+        "base_id": "IS 11166",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 11709",
+        "base_id": "IS 11709",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 11732",
+        "base_id": "IS 11732",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 12938",
+        "base_id": "IS 12938",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2024,
+      "superseded_by": "N/A",
+      "superseding_is": "IS 11286:1995",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  },
+  {
+    "original_query": "\u0915\u0920\u094b\u0930 \u0905\u0928\u0941\u092a\u094d\u0930\u092f\u094b\u0917\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0938\u0902\u0915\u094d\u0937\u093e\u0930\u0923 \u092a\u094d\u0930\u0924\u093f\u0930\u094b\u0927\u0915 \u0928\u093f\u0935\u0947\u0936 \u0922\u0932\u093e\u0908 \u0915\u093e \u092e\u093e\u0928\u0915",
+    "retrieval_query": "\u0915\u0920\u094b\u0930 \u0905\u0928\u0941\u092a\u094d\u0930\u092f\u094b\u0917\u094b\u0902 \u0915\u0947 \u0932\u093f\u090f \u0938\u0902\u0915\u094d\u0937\u093e\u0930\u0923 \u092a\u094d\u0930\u0924\u093f\u0930\u094b\u0927\u0915 \u0928\u093f\u0935\u0947\u0936 \u0922\u0932\u093e\u0908 \u0915\u093e \u092e\u093e\u0928\u0915",
+    "retriever_candidates": [
+      {
+        "base_id": "IS 11286",
+        "standard_id": "IS 11286:2024",
+        "title": "Corrosion Resistant High Alloy Steel, Nickel Base and Cobalt Base Investment Castings for Severe Applications \u2014 Specification",
+        "scope_description": "This standard covers the requirements for corrosion resistant high alloy steel, nickel base and cobalt base investment castings for severe corrosion applications.",
+        "score": 0.8313,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 18573",
+        "standard_id": "IS 18573:2024",
+        "title": "Cold Formed Welded Carbon Steel Square and Rectangular Hollow Sections for Mechanical, General Engineering and Decorative Purposes \u2014 Specification",
+        "scope_description": "This standard covers cold formed square and rectangular welded hollow sections for mechanical, general engineering and decorative purposes; it does not cover such sections for structural purposes, which are covered by separate Indian Standards.",
+        "score": 0.7978,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2024
+      },
+      {
+        "base_id": "IS 3018",
+        "standard_id": "IS 3018:2026",
+        "title": "Standard Silica Sand for Raw Material Testing in Foundries \u2014 Specification",
+        "scope_description": "This standard covers the quality requirements of standard sand to be used for testing of foundry raw materials.",
+        "score": 0.7861,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      },
+      {
+        "base_id": "IS 6913",
+        "standard_id": "IS 6913:2023",
+        "title": "Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical Industry \u2014 Specification",
+        "scope_description": "This standard covers the requirements for seamless, welded and heavily cold worked welded stainless-steel tubes of outside diameter less than or equal to 304.8 mm, for the food, beverage, dairy and pharmaceutical industry, requiring special surface finish.",
+        "score": 0.7825,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2023
+      },
+      {
+        "base_id": "IS 19773",
+        "standard_id": "IS 19773:2026",
+        "title": "High Chrome Grinding Media Ball for Cement Mills \u2014 Specification",
+        "scope_description": "This standard covers the requirements for high chrome grinding media ball for cement mills.",
+        "score": 0.7814,
+        "low_confidence": false,
+        "status": "Active",
+        "current_version_year": 2026
+      }
+    ],
+    "graph_expansion": [
+      {
+        "standard_id": "IS 228",
+        "base_id": "IS 228",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1500",
+        "base_id": "IS 1500",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1598",
+        "base_id": "IS 1598",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1599",
+        "base_id": "IS 1599",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1608",
+        "base_id": "IS 1608",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 1741",
+        "base_id": "IS 1741",
+        "title": "N/A",
+        "relation_type": "Related Product",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 2595",
+        "base_id": "IS 2595",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3407",
+        "base_id": "IS 3407",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3664",
+        "base_id": "IS 3664",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 3703",
+        "base_id": "IS 3703",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 5530",
+        "base_id": "IS 5530",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 6601",
+        "base_id": "IS 6601",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 6907",
+        "base_id": "IS 6907",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 9565",
+        "base_id": "IS 9565",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 10724",
+        "base_id": "IS 10724",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 11166",
+        "base_id": "IS 11166",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 11709",
+        "base_id": "IS 11709",
+        "title": "N/A",
+        "relation_type": "Normative Reference",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 11732",
+        "base_id": "IS 11732",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      },
+      {
+        "standard_id": "IS 12938",
+        "base_id": "IS 12938",
+        "title": "N/A",
+        "relation_type": "Test Method",
+        "hop": 1
+      }
+    ],
+    "metadata": {
+      "status": "Active",
+      "current_version_year": 2024,
+      "superseded_by": "N/A",
+      "superseding_is": "IS 11286:1995",
+      "amendments": []
+    },
+    "certification": {
+      "certification_name": "BIS Product Certification",
+      "mandatory": "No",
+      "qco_reference": "N/A",
+      "hs_code": "not verified"
+    }
+  }
+]

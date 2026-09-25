@@ -15,6 +15,7 @@ import re
 from typing import Dict
 
 from ai_core.interfaces.llm_client import LLMClient
+from ai_core.errors import LLMUnavailableError, LLMInvalidOutputError
 
 
 class GeminiClient(LLMClient):
@@ -91,7 +92,7 @@ class GeminiClient(LLMClient):
                 )
                 text = response.text
                 if not text:
-                    raise RuntimeError("Gemini returned an empty response.")
+                    raise LLMInvalidOutputError("Gemini returned an empty response.")
                 return text.strip()
             except Exception as exc:
                 err_str = str(exc)
@@ -103,7 +104,7 @@ class GeminiClient(LLMClient):
                     time.sleep(delay)
                     continue
                 
-                raise RuntimeError(f"Gemini API call failed: {exc}") from exc
+                raise LLMUnavailableError(f"Gemini API call failed: {exc}") from exc
 
     @staticmethod
     def _parse_json(text: str) -> Dict:
@@ -136,6 +137,6 @@ class GeminiClient(LLMClient):
             except json.JSONDecodeError:
                 pass
 
-        raise RuntimeError(
+        raise LLMInvalidOutputError(
             f"Could not parse JSON from LLM response:\n{text[:500]}"
         )

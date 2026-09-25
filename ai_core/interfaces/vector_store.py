@@ -15,6 +15,11 @@ class VectorStore(ABC):
     """Store and search dense vector embeddings keyed by standard ID."""
 
     @abstractmethod
+    def configure_embedder(self, model_id: str, dimension: int) -> None:
+        """Record the embedder configuration for safety checks."""
+        pass
+
+    @abstractmethod
     def add(self, ids: List[str], embeddings: np.ndarray) -> None:
         """Add embeddings to the store.
 

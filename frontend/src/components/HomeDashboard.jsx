@@ -5,18 +5,54 @@ import AiWorkArea from './AiWorkArea';
 import WelcomeBanner from './WelcomeBanner';
 
 export default function HomeDashboard() {
-  const [analysisStatus, setAnalysisStatus] = useState('idle'); // 'idle', 'processing', 'completed'
+  const [analysisStatus, setAnalysisStatus] = useState('idle'); // 'idle', 'processing', 'completed', 'error'
+  const [results, setResults] = useState(null);
 
-  const handleFileUpload = (file) => {
+  const handleFileUpload = async (file) => {
     if (file) {
       setAnalysisStatus('processing');
-      
-      // Simulate AI processing time (3 seconds) before showing results
-      setTimeout(() => {
+      try {
+        const formData = new FormData();
+        formData.append('file', file);
+        
+        const response = await fetch('http://localhost:8000/v1/recommend/pdf', {
+          method: 'POST',
+          body: formData,
+        });
+        
+        if (!response.ok) throw new Error('API Error');
+        const data = await response.json();
+        
+        setResults(data);
         setAnalysisStatus('completed');
-      }, 3000);
+      } catch (err) {
+        console.error(err);
+        setAnalysisStatus('error');
+      }
     } else {
       setAnalysisStatus('idle');
+      setResults(null);
+    }
+  };
+
+  const handleTextSubmit = async (text, language) => {
+    if (!text) return;
+    setAnalysisStatus('processing');
+    try {
+      const response = await fetch('http://localhost:8000/v1/recommend', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text, language_hint: language }),
+      });
+      
+      if (!response.ok) throw new Error('API Error');
+      const data = await response.json();
+      
+      setResults(data);
+      setAnalysisStatus('completed');
+    } catch (err) {
+      console.error(err);
+      setAnalysisStatus('error');
     }
   };
 
@@ -28,12 +64,12 @@ export default function HomeDashboard() {
         {/* Left Column: Upload and Input */}
         <div className="xl:col-span-5 flex flex-col space-y-6">
           <PdfUpload onUpload={handleFileUpload} />
-          <MultilingualInput />
+          <MultilingualInput onSubmit={handleTextSubmit} />
         </div>
         
         {/* Right Column: AI Work Area */}
         <div className="xl:col-span-7 h-full">
-          <AiWorkArea status={analysisStatus} />
+          <AiWorkArea status={analysisStatus} results={results} />
         </div>
       </div>
     </div>

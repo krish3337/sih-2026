@@ -17,7 +17,7 @@ import numpy as np
 
 from ai_core.interfaces.vector_store import VectorStore
 from ai_core.interfaces.graph_store import GraphStore
-from ai_core.embedder import Embedder
+from ai_core.interfaces.embedder import Embedder
 
 
 # ── Paths ────────────────────────────────────────────────────────────────────
@@ -102,6 +102,10 @@ def load_vectors(
         return 0
 
     print(f"  Embedding {len(texts)} scope descriptions …")
+    
+    # Configure safety constraints on the vector store before adding
+    vector_store.configure_embedder(embedder.model_id, embedder.dimension)
+    
     embeddings: np.ndarray = embedder.embed_texts(texts)
     vector_store.add(ids, embeddings)
 
@@ -135,10 +139,10 @@ def load_all(
     dict
         Summary counts: ``{"standards_embedded", "relations_loaded"}``.
     """
-    print("Loading data …")
+    print("Loading data ...")
 
     n_relations = load_graph(graph_store, relations_path)
-    print(f"  Graph:   {n_relations} relation records → {graph_store.edge_count} unique edges")
+    print(f"  Graph:   {n_relations} relation records -> {graph_store.edge_count} unique edges")
 
     n_embedded = load_vectors(vector_store, embedder, standards_path)
     print(f"  Vectors: {n_embedded} scope descriptions embedded")

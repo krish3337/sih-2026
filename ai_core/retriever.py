@@ -13,11 +13,7 @@ from typing import Dict, List
 
 from ai_core.interfaces.vector_store import VectorStore
 from ai_core.interfaces.standards_repository import StandardsRepository
-from ai_core.embedder import Embedder
-
-
-# Default threshold — configurable, not hardcoded inline in logic
-DEFAULT_CONFIDENCE_THRESHOLD = 0.80
+from ai_core.interfaces.embedder import Embedder
 
 
 class Retriever:
@@ -28,7 +24,7 @@ class Retriever:
         vector_store: VectorStore,
         standards_repo: StandardsRepository,
         embedder: Embedder,
-        confidence_threshold: float = DEFAULT_CONFIDENCE_THRESHOLD,
+        confidence_threshold: float = None,
     ) -> None:
         """
         Parameters
@@ -46,7 +42,7 @@ class Retriever:
         self._vector_store = vector_store
         self._repo = standards_repo
         self._embedder = embedder
-        self._threshold = confidence_threshold
+        self._threshold = confidence_threshold if confidence_threshold is not None else embedder.confidence_threshold
 
     def retrieve_candidates(
         self,

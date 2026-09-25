@@ -11,6 +11,7 @@ from typing import List, Tuple
 import numpy as np
 
 from ai_core.interfaces.vector_store import VectorStore
+from ai_core.errors import EmbedderMismatchError
 
 
 class InMemoryVectorStore(VectorStore):
@@ -19,8 +20,18 @@ class InMemoryVectorStore(VectorStore):
     def __init__(self) -> None:
         self._ids: List[str] = []
         self._embeddings: np.ndarray | None = None
+        self._model_id: str | None = None
+        self._dimension: int | None = None
 
     # ── VectorStore interface ────────────────────────────────────────────
+
+    def configure_embedder(self, model_id: str, dimension: int) -> None:
+        if self._model_id is not None and self._model_id != model_id:
+            raise EmbedderMismatchError(f"VectorStore was configured for model {self._model_id}, but {model_id} was provided.")
+        if self._dimension is not None and self._dimension != dimension:
+            raise EmbedderMismatchError(f"VectorStore expects dimension {self._dimension}, but {dimension} was provided.")
+        self._model_id = model_id
+        self._dimension = dimension
 
     def add(self, ids: List[str], embeddings: np.ndarray) -> None:
         """Store *ids* and their corresponding *embeddings*.
@@ -32,6 +43,8 @@ class InMemoryVectorStore(VectorStore):
             raise ValueError(
                 f"embeddings must be 2-D (got {embeddings.ndim}-D)"
             )
+        if self._dimension is not None and embeddings.shape[1] != self._dimension:
+            raise EmbedderMismatchError(f"Expected embedding dimension {self._dimension}, got {embeddings.shape[1]}")
         if len(ids) != embeddings.shape[0]:
             raise ValueError(
                 f"len(ids)={len(ids)} != embeddings rows={embeddings.shape[0]}"
@@ -56,6 +69,9 @@ class InMemoryVectorStore(VectorStore):
 
         Returns an empty list if the store is empty.
         """
+        if self._dimension is not None and query_embedding.shape[0] != self._dimension:
+            raise EmbedderMismatchError(f"Expected query dimension {self._dimension}, got {query_embedding.shape[0]}")
+            
         if self._embeddings is None or len(self._ids) == 0:
             return []
 

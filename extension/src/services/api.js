@@ -1,34 +1,47 @@
 export const analyzeSpecification = async (payload) => {
-  // Simulate network delay
-  await new Promise(resolve => setTimeout(resolve, 1500));
-  
   const { type, content, language } = payload;
 
   if (!content) {
     throw new Error("No content provided");
   }
 
-  // Determine mock response based on payload type
-  // In a real app, you would send FormData for PDF, or JSON for text
-  
-  const titleText = type === 'pdf' ? "Standards related to Uploaded PDF Document" : "Standards related to Specification";
-
-  return {
-    standards: [
-      {
-        code: "IS 2062:2011",
-        title: "Hot Rolled Medium and High Tensile Structural Steel",
-        applicability: "HIGH",
-        status: "Applicable",
-        explanation: `Applicable to the specified structural steel requirement (Analyzed in ${language}).`
+  try {
+    const response = await fetch('http://localhost:8000/v1/recommend', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
       },
-      {
-        code: "IS 800:2007",
-        title: "General Construction in Steel",
-        applicability: "RELATED",
-        status: "Related",
-        explanation: "Relevant to structural design requirements."
-      }
-    ]
-  };
+      body: JSON.stringify({
+        text: content,
+        language_hint: language || 'en'
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error(`API returned ${response.status}`);
+    }
+
+    const data = await response.json();
+    
+    // Map backend data to what the extension UI expects
+    const standards = (data.recommendations || []).map(std => {
+      const relevanceScore = Math.round((std.similarity_score || 0) * 100);
+      let applicability = 'LOW';
+      if (relevanceScore >= 90) applicability = 'HIGH';
+      else if (relevanceScore >= 75) applicability = 'RELATED';
+      
+      return {
+        code: std.standard_id,
+        title: std.title,
+        applicability,
+        status: std.certification?.mandatory ? "Mandatory" : "Voluntary",
+        explanation: data.explanation || "No explanation provided."
+      };
+    });
+
+    return { standards };
+  } catch (error) {
+    console.error("API Error:", error);
+    throw new Error("Failed to analyze text. Ensure the backend server is running.");
+  }
 };

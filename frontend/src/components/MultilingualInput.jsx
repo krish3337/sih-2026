@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Send, Languages } from 'lucide-react';
 
-export default function MultilingualInput() {
+export default function MultilingualInput({ onSubmit }) {
   const [language, setLanguage] = useState('en');
   const [text, setText] = useState('');
   const maxLength = 500;
@@ -18,7 +18,7 @@ export default function MultilingualInput() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!text.trim()) return;
-    console.log(`Submitted in ${language}: ${text}`);
+    if (onSubmit) onSubmit(text, language);
     setText('');
   };
 

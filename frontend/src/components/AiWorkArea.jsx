@@ -1,42 +1,8 @@
 import React from 'react';
 import { Bot, CheckCircle2, ChevronDown, Eye, FileText, Share2, Info, Loader2 } from 'lucide-react';
 
-export default function AiWorkArea({ status = 'idle' }) {
-  // Using the exact data from the mockup
-  const extractedStandards = [
-    { 
-      id: 'IS 302 : 2019', 
-      title: 'Safety of Household Electrical Appliances',
-      relevance: 94,
-      clauses: [
-        'Clause 8.1 — Protection against electric shock',
-        'Clause 15.2 — Moisture resistance',
-        'Clause 22.4 — Insulation requirements'
-      ],
-      source: 'Page 18, Clause 8.1'
-    },
-    { 
-      id: 'IS 13420 : 2021', 
-      title: 'Household and Similar Electrical Appliances — Safety',
-      relevance: 78,
-      clauses: [
-        'Clause 6.1 — Mechanical strength',
-        'Clause 9.3 — Temperature rise limits'
-      ],
-      source: 'Page 12, Clause 6.1'
-    },
-    { 
-      id: 'IS 10322 : 2012', 
-      title: 'Electromagnetic Compatibility',
-      relevance: 62,
-      clauses: [
-        'Clause 5.2 — Emission limits',
-        'Clause 7.1 — Immunity requirements'
-      ],
-      source: 'Page 27, Clause 5.2'
-    }
-  ];
-
+export default function AiWorkArea({ status = 'idle', results }) {
+  // Render the AI work area
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 h-full flex flex-col overflow-hidden">
       
@@ -46,10 +12,10 @@ export default function AiWorkArea({ status = 'idle' }) {
           <Bot className="h-6 w-6 text-[#1a365d] mr-2" />
           <h2 className="text-lg font-bold text-[#1a365d]">AI Analysis & Extracted Standards</h2>
         </div>
-        {status === 'completed' && (
+        {status === 'completed' && results && (
           <div className="flex items-center text-xs font-bold text-green-700 bg-green-50 px-3 py-1.5 rounded-full border border-green-200 animate-fade-in">
             <CheckCircle2 className="w-4 h-4 mr-1.5" />
-            3 Relevant Standards Found
+            {results.recommendations?.length || 0} Relevant Standards Found
           </div>
         )}
       </div>
@@ -85,10 +51,33 @@ export default function AiWorkArea({ status = 'idle' }) {
           </div>
         )}
 
+        {/* State: ERROR */}
+        {status === 'error' && (
+          <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-red-500">
+            <div className="h-20 w-20 bg-red-100 rounded-full flex items-center justify-center mb-4">
+              <Info className="h-10 w-10 text-red-500" />
+            </div>
+            <p className="text-center font-bold mb-2">Error Processing Request</p>
+            <p className="text-center text-sm text-red-400">
+              There was an error communicating with the AI API. Make sure the backend server is running.
+            </p>
+          </div>
+        )}
+
         {/* State: COMPLETED */}
-        {status === 'completed' && (
+        {status === 'completed' && results && (
           <div className="p-5 space-y-5 animate-fade-in-up">
-            {extractedStandards.map((std, idx) => (
+            
+            {/* Explanation box */}
+            {results.explanation && (
+              <div className="bg-blue-50 border border-blue-100 p-4 rounded-xl text-sm text-[#1a365d] mb-4">
+                <strong>AI Explanation:</strong> {results.explanation}
+              </div>
+            )}
+
+            {(results.recommendations || []).map((std, idx) => {
+              const relevanceScore = Math.round((std.similarity_score || 0) * 100);
+              return (
               <div key={idx} className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                 
                 {/* Standard Header */}
@@ -98,16 +87,16 @@ export default function AiWorkArea({ status = 'idle' }) {
                       IS
                     </div>
                     <div>
-                      <h3 className="font-bold text-[#1a365d] text-lg leading-tight">{std.id}</h3>
+                      <h3 className="font-bold text-[#1a365d] text-lg leading-tight">{std.standard_id}</h3>
                       <p className="text-sm text-gray-500 mt-0.5">{std.title}</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <span className={`text-xs font-bold px-3 py-1 rounded-full ${
-                      std.relevance >= 90 ? 'bg-green-100 text-green-700' : 
-                      std.relevance >= 75 ? 'bg-green-50 text-green-600' : 'bg-yellow-50 text-yellow-600'
+                      relevanceScore >= 90 ? 'bg-green-100 text-green-700' : 
+                      relevanceScore >= 75 ? 'bg-green-50 text-green-600' : 'bg-yellow-50 text-yellow-600'
                     }`}>
-                      Relevance {std.relevance}%
+                      Relevance {relevanceScore}%
                     </span>
                     <button className="text-gray-400 hover:text-gray-600">
                       <ChevronDown className="w-5 h-5" />
@@ -115,21 +104,30 @@ export default function AiWorkArea({ status = 'idle' }) {
                   </div>
                 </div>
                 
-                {/* Clauses */}
+                {/* Allied Standards */}
                 <div className="px-14 pb-4">
-                  <p className="text-sm font-bold text-gray-700 mb-2">Relevant Clauses</p>
-                  <ul className="list-disc pl-4 space-y-1">
-                    {std.clauses.map((clause, cIdx) => (
-                      <li key={cIdx} className="text-sm text-gray-600">{clause}</li>
-                    ))}
-                  </ul>
+                  {results.allied_standards && results.allied_standards.length > 0 ? (
+                    <>
+                      <p className="text-sm font-bold text-gray-700 mb-2">Allied Standards</p>
+                      <ul className="list-disc pl-4 space-y-1">
+                        {results.allied_standards.slice(0, 5).map((related, rIdx) => (
+                          <li key={rIdx} className="text-sm text-gray-600">{related.standard_id} - {related.relation_type}</li>
+                        ))}
+                      </ul>
+                    </>
+                  ) : (
+                    <p className="text-sm text-gray-500 italic">No allied standards found.</p>
+                  )}
                 </div>
 
                 {/* Footer Actions */}
                 <div className="bg-[#f8fafc] border-t border-gray-100 px-4 py-3 flex items-center justify-between">
                   <div className="flex items-center text-sm text-[#2b6cb0] font-medium">
-                    <Share2 className="w-4 h-4 mr-2 text-[#2b6cb0]" />
-                    Source: {std.source}
+                    {std.certification?.mandatory ? (
+                      <span className="text-red-600">⚠ Mandatory BIS Certification</span>
+                    ) : (
+                      <span className="text-green-600">✓ Voluntary</span>
+                    )}
                   </div>
                   <div className="flex space-x-3">
                     <button className="flex items-center text-sm font-medium text-[#1a365d] hover:bg-gray-100 px-3 py-1.5 rounded-lg border border-transparent transition-colors">
@@ -144,7 +142,7 @@ export default function AiWorkArea({ status = 'idle' }) {
                 </div>
                 
               </div>
-            ))}
+            )})}
           </div>
         )}
       </div>

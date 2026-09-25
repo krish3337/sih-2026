@@ -6,6 +6,7 @@ deterministic data context. Enforces the evidence-only constraint to
 prevent hallucination.
 """
 
+import os
 from typing import Dict, List, Any
 
 from ai_core.interfaces.llm_client import LLMClient
@@ -22,6 +23,9 @@ class Synthesizer:
             Interface instance for making generation calls.
         """
         self._llm = llm_client
+        prompt_path = os.path.join(os.path.dirname(__file__), "prompts", "synthesizer_v1.txt")
+        with open(prompt_path, "r", encoding="utf-8") as f:
+            self._prompt_template = f.read()
 
     def synthesize_response(
         self,
@@ -95,22 +99,8 @@ class Synthesizer:
             context_str += "  Not available.\n"
 
         # CRITICAL CONSTRAINT enforces no hallucinations
-        prompt = f"""
-You are an AI assistant helping procurement officials find the correct Indian Standard.
-Write a plain-language explanation of the findings based ONLY on the following context.
-
-CRITICAL CONSTRAINTS: 
-1. Only reference standard numbers, titles, and relationships present in the supplied context. 
-2. Never invent or guess a standard number. If evidence is insufficient, say so explicitly.
-3. Always include a summary of the certification requirements and version/amendment status.
-4. When describing the Scope of a recommended standard, you MUST include a literal quoted excerpt from the provided "Scope Snippet". Do not paraphrase the scope. Format it exactly as: Scope: "[exact quote from snippet]"
-5. Always include the match relevance state and confidence score for the primary standard (e.g., Match Relevance: CONFIDENT, Score: 0.9235).
-
-CONTEXT:
-{context_str}
-
-EXPLANATION:
-"""
+        # Build the prompt by replacing context
+        prompt = self._prompt_template.replace("{context_str}", context_str)
         explanation = self._llm.generate(prompt)
 
         # Assemble the deterministic JSON payload with the generated text

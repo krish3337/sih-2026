@@ -18,7 +18,6 @@ from ai_core.config import (
     create_graph_store,
     create_standards_repository,
     create_llm_client,
-    CONFIDENCE_THRESHOLD,
 )
 
 # Load data
@@ -55,7 +54,7 @@ def init_pipeline() -> RecommendationPipeline:
     
     # Instantiate modules
     qu = QueryUnderstanding(llm)
-    retriever = Retriever(vector_store, repo, embedder, CONFIDENCE_THRESHOLD)
+    retriever = Retriever(vector_store, repo, embedder)
     expander = GraphExpander(graph_store, repo)
     meta = MetadataChecker(repo)
     cert = CertificationChecker(repo)

@@ -6,9 +6,20 @@ retrieval query. Uses the LLMClient interface.
 """
 
 import json
-from typing import Dict
+import os
+from typing import Dict, List, Optional
+from pydantic import BaseModel, ValidationError
 
 from ai_core.interfaces.llm_client import LLMClient
+from ai_core.errors import LLMInvalidOutputError
+
+class QueryAttributesSchema(BaseModel):
+    product_type: Optional[str]
+    material_grade: Optional[str]
+    product_form: Optional[str]
+    application: Optional[str]
+    explicit_standard_numbers: List[str]
+    detected_language: str
 
 
 class QueryUnderstanding:
@@ -22,6 +33,9 @@ class QueryUnderstanding:
             Interface instance for making extraction calls.
         """
         self._llm = llm_client
+        prompt_path = os.path.join(os.path.dirname(__file__), "prompts", "query_understanding_v1.txt")
+        with open(prompt_path, "r", encoding="utf-8") as f:
+            self._prompt_template = f.read()
 
     def extract_query_attributes(self, raw_query: str) -> Dict:
         """
@@ -38,23 +52,15 @@ class QueryUnderstanding:
             Contains product_type, material_grade, product_form, application,
             explicit_standard_numbers, detected_language, and retrieval_query.
         """
-        prompt = f"""
-You are an expert in industrial procurement and standards.
-Extract structured attributes from the following user query.
-
-Query: "{raw_query}"
-
-Return a JSON object with EXACTLY these keys. Use null if a value is not present:
-- "product_type": (string or null)
-- "material_grade": (string or null)
-- "product_form": (string or null)
-- "application": (string or null)
-- "explicit_standard_numbers": (list of strings, e.g. ["IS 17876"] or [])
-- "detected_language": (string, e.g. "English", "Hindi")
-
-Do not include any other text or markdown formatting besides the JSON block.
-"""
+        prompt = self._prompt_template.replace("{raw_query}", raw_query)
         extracted = self._llm.extract(prompt)
+
+        # Validate with model-agnostic schema
+        try:
+            validated = QueryAttributesSchema(**extracted)
+            extracted = validated.model_dump()
+        except ValidationError as e:
+            raise LLMInvalidOutputError(f"LLM output failed schema validation: {e}")
 
         # Build clean retrieval query from structured fields
         parts = []
