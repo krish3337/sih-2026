@@ -9,7 +9,7 @@ pipeline module depends solely on the interfaces.
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 from ai_core.interfaces.vector_store import VectorStore
 from ai_core.interfaces.graph_store import GraphStore
@@ -22,6 +22,7 @@ from ai_core.impl.in_memory_vector_store import InMemoryVectorStore
 from ai_core.impl.in_memory_graph_store import InMemoryGraphStore
 from ai_core.impl.in_memory_standards_repository import InMemoryStandardsRepository
 from ai_core.impl.gemini_client import GeminiClient
+from ai_core.impl.groq_client import GroqClient
 from ai_core.impl.e5_embedder import E5Embedder
 
 
@@ -39,6 +40,7 @@ EMBEDDER_REGISTRY = {
 
 LLM_REGISTRY = {
     "gemini": lambda: GeminiClient(model_name="gemini-3.6-flash"),
+    "groq": lambda: GroqClient(model_name=os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")),
 }
 
 # ── Factory functions ────────────────────────────────────────────────────
