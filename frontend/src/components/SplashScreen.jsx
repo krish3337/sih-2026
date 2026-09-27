@@ -29,7 +29,7 @@ export default function SplashScreen({ onComplete }) {
         
         {/* Flashing Name */}
         <h1 className="text-4xl font-bold text-government-blue animate-pulse text-center tracking-tight">
-          [APP NAME]
+          StandSure
         </h1>
         <p className="text-gray-500 mt-2 text-sm tracking-widest uppercase">Initializing System...</p>
       </div>

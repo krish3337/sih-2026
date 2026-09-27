@@ -1,12 +1,11 @@
 import React from 'react';
-import { Home, FileText, Settings, History, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Home, FileText, History, ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function Sidebar({ isOpen, toggleSidebar, activeView, setActiveView }) {
   const menuItems = [
     { id: 'dashboard', icon: <Home className="w-5 h-5" />, label: 'Dashboard' },
     { id: 'documents', icon: <FileText className="w-5 h-5" />, label: 'My Documents' },
     { id: 'recent', icon: <History className="w-5 h-5" />, label: 'Recent Analysis' },
-    { id: 'settings', icon: <Settings className="w-5 h-5" />, label: 'Settings' },
   ];
 
   return (
