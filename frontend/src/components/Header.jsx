@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { HelpCircle, User, Activity, Settings, LogOut, BookOpen, MessageSquare, Mail, Type, Contrast } from 'lucide-react';
+import { HelpCircle, Activity, BookOpen, MessageSquare, Mail, Type, Contrast, Check } from 'lucide-react';
 
 export default function Header() {
-  const [activeDropdown, setActiveDropdown] = useState(null); // 'help', 'accessibility', 'profile', or null
+  const [activeDropdown, setActiveDropdown] = useState(null); // 'help', 'accessibility', or null
   const headerRef = useRef(null);
 
   // Close dropdown when clicking outside
@@ -28,11 +28,15 @@ export default function Header() {
             
             {/* Logo and Titles */}
             <div className="flex items-center space-x-4">
-              <div className="h-12 w-10 bg-white/10 rounded flex items-center justify-center border border-white/20 shrink-0">
-                 <span className="text-[10px] text-center leading-tight">Emblem</span>
+              <div className="h-12 w-16 bg-white/10 rounded flex flex-col items-center justify-center border border-white/20 shrink-0">
+                <div className="relative flex items-center justify-center flex-1 w-full pt-1">
+                  <span className="text-[22px] font-black text-white tracking-wider leading-none z-10">IS</span>
+                  <Check className="absolute text-green-400 w-9 h-9 opacity-50 z-20 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" strokeWidth={3} />
+                </div>
+                <span className="text-[6px] font-bold tracking-widest text-white uppercase pb-1 z-10">StandSure</span>
               </div>
               <div className="flex flex-col justify-center">
-                <h1 className="text-xl font-bold tracking-tight text-white leading-tight">Pramaan</h1>
+                <h1 className="text-xl font-bold tracking-tight text-white leading-tight">StandSure</h1>
                 <div className="flex items-center text-xs text-gray-300 mt-0.5 space-x-2">
                   <span>Government of India</span>
                   <span className="text-gray-500">|</span>
@@ -99,34 +103,6 @@ export default function Header() {
                         High Contrast Mode
                       </label>
                     </div>
-                  </div>
-                )}
-              </div>
-              
-              {/* Profile Dropdown */}
-              <div className="relative flex items-center ml-2 border-l border-white/20 pl-4 sm:pl-6">
-                <button 
-                  onClick={() => toggleDropdown('profile')}
-                  className="flex items-center focus:outline-none group"
-                >
-                  <div className="hidden sm:flex items-center mr-3 group-hover:text-gray-300 transition-colors">
-                    <User className="w-4 h-4 mr-1.5" />
-                    <span>Official</span>
-                  </div>
-                  <div className={`h-9 w-9 rounded-full flex items-center justify-center font-bold text-sm shadow-sm transition-colors ${activeDropdown === 'profile' ? 'bg-gray-200 text-[#0b1b3d]' : 'bg-white text-[#0b1b3d] group-hover:bg-gray-100'}`}>
-                    GO
-                  </div>
-                </button>
-                
-                {activeDropdown === 'profile' && (
-                  <div className="absolute right-0 top-12 mt-2 w-48 bg-white rounded-md shadow-lg border border-gray-200 py-1 text-gray-700 z-50">
-                    <div className="px-4 py-2 border-b border-gray-100">
-                      <p className="text-sm font-bold text-gray-800">Official Gov User</p>
-                      <p className="text-xs text-gray-500 truncate">Standards Analysis Div.</p>
-                    </div>
-                    <a href="#" className="flex items-center px-4 py-2 text-sm hover:bg-gray-100 mt-1"><Settings className="w-4 h-4 mr-2 text-gray-400" /> Account Settings</a>
-                    <div className="border-t border-gray-100 my-1"></div>
-                    <a href="#" className="flex items-center px-4 py-2 text-sm hover:bg-gray-100 text-red-600"><LogOut className="w-4 h-4 mr-2 text-red-500" /> Log Out</a>
                   </div>
                 )}
               </div>
