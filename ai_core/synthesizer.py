@@ -33,7 +33,6 @@ class Synthesizer:
         primary_candidates: List[Dict],
         allied_standards: List[Dict],
         status_info: Dict[str, Any],
-        certification_info: Dict[str, Any]
     ) -> Dict:
         """
         Generates a human-readable explanation and formats the final response.
@@ -43,13 +42,12 @@ class Synthesizer:
         query : str
             The raw user query.
         primary_candidates : list[dict]
-            Top retrieved candidates from Retriever.
+            Top retrieved candidates from Retriever. Each candidate now
+            contains its own ``certification_info`` dict.
         allied_standards : list[dict]
             Related standards for the top candidate from GraphExpansion.
         status_info : dict
             Status, version, and amendments for the top candidate.
-        certification_info : dict
-            Certification requirements for the top candidate.
 
         Returns
         -------
@@ -75,6 +73,13 @@ class Synthesizer:
             confidence_state = "LOW CONFIDENCE" if c.get("low_confidence") else "CONFIDENT"
             context_str += f"  {i+1}. {c.get('standard_id', '')} - {c.get('title', '')} [{confidence_state}, Score: {c.get('score')}]\n"
             context_str += f"     Scope Snippet: {c.get('scope_description', '')}\n"
+            # Per-candidate certification
+            cert = c.get("certification_info", {})
+            if cert:
+                mandatory_val = cert.get("mandatory", "N/A")
+                context_str += f"     Certification: mandatory={mandatory_val}, QCO={cert.get('qco_reference', 'N/A')}\n"
+            else:
+                context_str += f"     Certification: Not available.\n"
 
         context_str += "\nALLIED STANDARDS (For Top Candidate):\n"
         if not grouped_allied:
@@ -91,13 +96,6 @@ class Synthesizer:
         else:
             context_str += "  Not available.\n"
 
-        context_str += f"\nCERTIFICATION REQUIREMENTS (For Top Candidate):\n"
-        if certification_info:
-            for k, v in certification_info.items():
-                context_str += f"  {k}: {v}\n"
-        else:
-            context_str += "  Not available.\n"
-
         # CRITICAL CONSTRAINT enforces no hallucinations
         # Build the prompt by replacing context
         prompt = self._prompt_template.replace("{context_str}", context_str)
@@ -108,6 +106,6 @@ class Synthesizer:
             "primary_recommendations": primary_candidates,
             "allied_standards": grouped_allied,
             "status_info": status_info,
-            "certification_info": certification_info,
             "explanation": explanation
         }
+

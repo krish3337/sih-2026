@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field
 
 class CertificationInfo(BaseModel):
     certification_name: Optional[str] = None
-    mandatory: Optional[bool] = None
+    mandatory: Optional[str] = None
     qco_reference: Optional[str] = None
     hs_code: Optional[str] = None
 

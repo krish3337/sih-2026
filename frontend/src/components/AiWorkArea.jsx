@@ -123,7 +123,7 @@ export default function AiWorkArea({ status = 'idle', results }) {
                 {/* Footer Actions */}
                 <div className="bg-[#f8fafc] border-t border-gray-100 px-4 py-3 flex items-center justify-between">
                   <div className="flex items-center text-sm text-[#2b6cb0] font-medium">
-                    {std.certification?.mandatory ? (
+                    {std.certification?.mandatory === "Yes" ? (
                       <span className="text-red-600">⚠ Mandatory BIS Certification</span>
                     ) : (
                       <span className="text-green-600">✓ Voluntary</span>

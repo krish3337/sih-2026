@@ -90,7 +90,7 @@ def create_standards_repository() -> StandardsRepository:
 
 def create_llm_client() -> LLMClient:
     """Create an LLMClient."""
-    backend = os.environ.get("LLM_BACKEND", "gemini")
+    backend = os.environ.get("LLM_BACKEND", "groq")
     if backend == "fake":
         class FakeLLMClient(LLMClient):
             def extract(self, prompt: str) -> dict:

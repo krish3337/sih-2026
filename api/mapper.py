@@ -20,8 +20,8 @@ def map_pipeline_response(
     mapped_recs = []
     for rec in pipeline_result.get("primary_recommendations", []):
         
-        # Certification might be empty dict or populated dict
-        cert_data = pipeline_result.get("certification_info", {})
+        # Certification is now per-candidate, attached directly to each rec
+        cert_data = rec.get("certification_info", {})
         cert_info = None
         if cert_data:
             cert_info = CertificationInfo(
