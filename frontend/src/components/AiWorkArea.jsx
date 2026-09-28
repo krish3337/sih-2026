@@ -1,5 +1,178 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Bot, CheckCircle2, ChevronDown, Eye, FileText, Share2, Info, Loader2 } from 'lucide-react';
+
+const StandardCard = ({ std }) => {
+  const [expanded, setExpanded] = useState(false);
+
+  // Match Confidence Badge
+  let confLevel = "Medium";
+  let confColor = "bg-green-50 text-green-600";
+  if (std.low_confidence) {
+    confLevel = "Low";
+    confColor = "bg-yellow-50 text-yellow-600";
+  } else if (std.similarity_score > 0.85) {
+    confLevel = "High";
+    confColor = "bg-green-100 text-green-700";
+  }
+
+  // Status Badge
+  let statusText = std.status || "Status not verified";
+  let statusColor = "bg-gray-100 text-gray-600";
+  if (statusText === "Active" || statusText === "Current") {
+    statusText = "Current";
+    statusColor = "bg-blue-50 text-blue-700";
+  } else if (statusText === "Superseded" || statusText === "Withdrawn") {
+    if (std.superseding_is && std.superseding_is !== "N/A") {
+      statusText = `Superseded (Replaced by ${std.superseding_is})`;
+    }
+    statusColor = "bg-red-50 text-red-700";
+  }
+
+  // Group Allied Standards
+  const groupedAllied = {};
+  if (std.allied_standards && std.allied_standards.length > 0) {
+    std.allied_standards.forEach(a => {
+      const type = a.relation_type || "Other related standards";
+      if (!groupedAllied[type]) groupedAllied[type] = [];
+      groupedAllied[type].push(a);
+    });
+  }
+
+  return (
+    <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+      {/* 1. Header (Always Visible) */}
+      <div 
+        className="p-4 cursor-pointer flex flex-col space-y-3 hover:bg-gray-50/50 transition-colors"
+        onClick={() => setExpanded(!expanded)}
+      >
+        <div className="flex items-start justify-between">
+          <div className="flex items-start pr-4">
+            <div className="h-10 w-10 bg-[#1a365d] rounded-lg text-white font-bold flex items-center justify-center shrink-0 mr-4 shadow-sm">
+              IS
+            </div>
+            <div>
+              <h3 className="font-bold text-[#1a365d] text-lg leading-tight">{std.standard_id}</h3>
+              <p className="text-sm text-gray-600 mt-1">{std.title}</p>
+            </div>
+          </div>
+          <div className="flex flex-col items-end space-y-2 shrink-0">
+            <span className={`text-xs font-bold px-3 py-1 rounded-full ${confColor}`}>
+              {confLevel} Match
+            </span>
+            <span className={`text-xs font-bold px-3 py-1 rounded-full ${statusColor}`}>
+              {statusText}
+            </span>
+          </div>
+        </div>
+
+        {/* Compact Certification Badge (Always Visible) */}
+        <div className="flex items-center justify-between mt-2 pt-3 border-t border-gray-100">
+          <div className="flex items-center text-sm font-medium">
+            {std.certification && std.certification.mandatory === "Yes" ? (
+              <span className="text-red-600 flex items-center"><Info className="w-4 h-4 mr-1.5"/> Mandatory BIS Certification</span>
+            ) : std.certification ? (
+              <span className="text-green-600 flex items-center"><CheckCircle2 className="w-4 h-4 mr-1.5"/> Voluntary Certification</span>
+            ) : (
+              <span className="text-gray-500 flex items-center italic"><Info className="w-4 h-4 mr-1.5"/> Certification status not found - verify with BIS</span>
+            )}
+          </div>
+          <button className="text-gray-400 hover:text-gray-600 transition-transform duration-200" style={{ transform: expanded ? 'rotate(180deg)' : '' }}>
+            <ChevronDown className="w-5 h-5" />
+          </button>
+        </div>
+      </div>
+
+      {/* Expanded Content */}
+      {expanded && (
+        <div className="px-5 pb-5 pt-3 border-t border-gray-100 bg-[#f8fafc] space-y-5">
+          
+          {/* 2. Version and Amendments */}
+          <div>
+            <h4 className="text-sm font-bold text-gray-700 mb-2 flex items-center">
+              <span className="bg-gray-200 text-gray-600 text-[10px] uppercase px-2 py-0.5 rounded font-bold mr-2 tracking-wider">Status Register</span>
+              Version & Amendments
+            </h4>
+            <div className="bg-white p-3.5 rounded-lg border border-gray-200 text-sm shadow-sm">
+              <p className="text-gray-800 mb-2"><span className="font-semibold text-gray-500 w-24 inline-block">Latest Version:</span> {std.current_version_year}</p>
+              <div className="text-gray-800">
+                <span className="font-semibold text-gray-500 mb-1 block">Amendments: </span>
+                {std.amendments && std.amendments.length > 0 ? (
+                  <ul className="list-disc pl-5 mt-1 space-y-1.5 text-gray-600">
+                    {std.amendments.map((amd, i) => (
+                      <li key={i}>
+                        <span className="font-medium text-gray-700">{amd.amendment_id || amd.amendment_number || `AMD-${i+1}`}</span>
+                        {amd.date_issued ? ` (${amd.date_issued})` : ''} - {amd.summary_of_change || amd.description || 'No description provided'}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <span className="text-gray-500 italic">No amendments recorded</span>
+                )}
+              </div>
+            </div>
+          </div>
+
+          {/* 5. Certification Block */}
+          <div>
+            <h4 className="text-sm font-bold text-gray-700 mb-2 flex items-center">
+              <span className="bg-gray-200 text-gray-600 text-[10px] uppercase px-2 py-0.5 rounded font-bold mr-2 tracking-wider">Certification Register</span>
+              Certification Details
+            </h4>
+            <div className="bg-white p-3.5 rounded-lg border border-gray-200 text-sm shadow-sm">
+              {std.certification ? (
+                <div className="space-y-2">
+                  <p><span className="font-semibold text-gray-500 w-28 inline-block">Scheme:</span> <span className="text-gray-800">{std.certification.certification_name || "BIS Product Certification"}</span></p>
+                  <p><span className="font-semibold text-gray-500 w-28 inline-block">Status:</span> <span className={std.certification.mandatory === "Yes" ? "text-red-600 font-medium" : "text-green-600 font-medium"}>{std.certification.mandatory === "Yes" ? "Mandatory" : "Voluntary"}</span></p>
+                  {std.certification.qco_reference && (
+                    <p><span className="font-semibold text-gray-500 w-28 inline-block">QCO Reference:</span> <span className="text-gray-800">{std.certification.qco_reference}</span></p>
+                  )}
+                </div>
+              ) : (
+                <p className="text-gray-500 italic">Certification status not found in register - verify with BIS.</p>
+              )}
+            </div>
+          </div>
+
+          {/* 4. Allied Standards */}
+          {Object.keys(groupedAllied).length > 0 && (
+            <div>
+              <h4 className="text-sm font-bold text-gray-700 mb-2">Allied Standards</h4>
+              <div className="space-y-3">
+                {Object.entries(groupedAllied).map(([groupName, items]) => (
+                  <div key={groupName} className="bg-white p-3.5 rounded-lg border border-gray-200 shadow-sm">
+                    <p className="text-[11px] font-bold text-[#2b6cb0] uppercase mb-2 tracking-wider">{groupName}</p>
+                    <ul className="space-y-2">
+                      {items.map((item, i) => (
+                        <li key={i} className="text-sm text-gray-600 flex items-start leading-snug">
+                          <span className="text-[#2b6cb0] mr-2 mt-0.5">•</span>
+                          <span><strong className="text-gray-800 font-semibold">{item.standard_id}</strong> - {item.title}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+        </div>
+      )}
+
+      {/* 6. Footer Actions (Always Visible) */}
+      <div className="bg-white border-t border-gray-100 px-4 py-3 flex items-center justify-end space-x-3 rounded-b-xl">
+        <button className="flex items-center text-sm font-medium text-[#1a365d] hover:bg-gray-50 px-3 py-1.5 rounded-lg border border-gray-200 transition-colors">
+          <Eye className="w-4 h-4 mr-2" />
+          View Evidence
+        </button>
+        <button className="flex items-center text-sm font-medium text-white bg-[#1a365d] hover:bg-[#122847] px-4 py-1.5 rounded-lg transition-colors shadow-sm">
+          <FileText className="w-4 h-4 mr-2" />
+          View Full Standard
+        </button>
+      </div>
+      
+    </div>
+  );
+};
 
 export default function AiWorkArea({ status = 'idle', results }) {
   // Render the AI work area
@@ -65,9 +238,27 @@ export default function AiWorkArea({ status = 'idle', results }) {
         )}
 
         {/* State: COMPLETED */}
-        {status === 'completed' && results && (
+        {status === 'completed' && results && (() => {
+          const hasLowConfidence = results.warnings?.some(w => w.code === 'NO_CONFIDENT_MATCH') || 
+                                   (results.recommendations?.length > 0 && results.recommendations[0].low_confidence);
+          
+          return (
           <div className="p-5 space-y-5 animate-fade-in-up">
             
+            {/* Low Confidence Warning */}
+            {hasLowConfidence && (
+              <div className="bg-orange-50 border border-orange-200 p-6 rounded-xl text-center mb-2 shadow-sm">
+                <div className="h-12 w-12 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Info className="h-6 w-6" />
+                </div>
+                <h3 className="text-lg font-bold text-orange-800 mb-2">No Relevant Standards Found</h3>
+                <p className="text-orange-700 text-sm">
+                  We couldn't find any highly confident matches for your query. 
+                  The results below are shown as best-effort guesses but may not be relevant.
+                </p>
+              </div>
+            )}
+
             {/* Explanation box */}
             {results.explanation && (
               <div className="bg-blue-50 border border-blue-100 p-4 rounded-xl text-sm text-[#1a365d] mb-4">
@@ -75,76 +266,12 @@ export default function AiWorkArea({ status = 'idle', results }) {
               </div>
             )}
 
-            {(results.recommendations || []).map((std, idx) => {
-              const relevanceScore = Math.round((std.similarity_score || 0) * 100);
-              return (
-              <div key={idx} className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-                
-                {/* Standard Header */}
-                <div className="p-4 flex items-start justify-between">
-                  <div className="flex items-start">
-                    <div className="h-10 w-10 bg-[#1a365d] rounded-lg text-white font-bold flex items-center justify-center shrink-0 mr-4 shadow-sm">
-                      IS
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-[#1a365d] text-lg leading-tight">{std.standard_id}</h3>
-                      <p className="text-sm text-gray-500 mt-0.5">{std.title}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <span className={`text-xs font-bold px-3 py-1 rounded-full ${
-                      relevanceScore >= 90 ? 'bg-green-100 text-green-700' : 
-                      relevanceScore >= 75 ? 'bg-green-50 text-green-600' : 'bg-yellow-50 text-yellow-600'
-                    }`}>
-                      Relevance {relevanceScore}%
-                    </span>
-                    <button className="text-gray-400 hover:text-gray-600">
-                      <ChevronDown className="w-5 h-5" />
-                    </button>
-                  </div>
-                </div>
-                
-                {/* Allied Standards */}
-                <div className="px-14 pb-4">
-                  {results.allied_standards && results.allied_standards.length > 0 ? (
-                    <>
-                      <p className="text-sm font-bold text-gray-700 mb-2">Allied Standards</p>
-                      <ul className="list-disc pl-4 space-y-1">
-                        {results.allied_standards.slice(0, 5).map((related, rIdx) => (
-                          <li key={rIdx} className="text-sm text-gray-600">{related.standard_id} - {related.relation_type}</li>
-                        ))}
-                      </ul>
-                    </>
-                  ) : (
-                    <p className="text-sm text-gray-500 italic">No allied standards found.</p>
-                  )}
-                </div>
-
-                {/* Footer Actions */}
-                <div className="bg-[#f8fafc] border-t border-gray-100 px-4 py-3 flex items-center justify-between">
-                  <div className="flex items-center text-sm text-[#2b6cb0] font-medium">
-                    {std.certification?.mandatory === "Yes" ? (
-                      <span className="text-red-600">⚠ Mandatory BIS Certification</span>
-                    ) : (
-                      <span className="text-green-600">✓ Voluntary</span>
-                    )}
-                  </div>
-                  <div className="flex space-x-3">
-                    <button className="flex items-center text-sm font-medium text-[#1a365d] hover:bg-gray-100 px-3 py-1.5 rounded-lg border border-transparent transition-colors">
-                      <Eye className="w-4 h-4 mr-2" />
-                      View Evidence
-                    </button>
-                    <button className="flex items-center text-sm font-medium text-[#1a365d] bg-white border border-gray-200 hover:border-[#1a365d] px-3 py-1.5 rounded-lg transition-colors shadow-sm">
-                      <FileText className="w-4 h-4 mr-2" />
-                      View Full Standard
-                    </button>
-                  </div>
-                </div>
-                
-              </div>
-            )})}
+            {(results.recommendations || []).map((std, idx) => (
+              <StandardCard key={idx} std={std} />
+            ))}
           </div>
-        )}
+          );
+        })()}
       </div>
     </div>
   );

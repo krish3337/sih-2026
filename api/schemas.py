@@ -1,4 +1,4 @@
-from typing import List, Optional, Any
+from typing import List, Optional, Any, Dict
 from pydantic import BaseModel, Field
 
 class CertificationInfo(BaseModel):
@@ -17,7 +17,8 @@ class Recommendation(BaseModel):
     current_version_year: str = "N/A"
     superseded_by: Optional[str] = None
     superseding_is: Optional[str] = None
-    amendments: List[str] = Field(default_factory=list)
+    amendments: List[Dict[str, Any]] = Field(default_factory=list)
+    allied_standards: List[AlliedStandard] = Field(default_factory=list)
     certification: Optional[CertificationInfo] = None
 
 class AlliedStandard(BaseModel):
@@ -40,7 +41,6 @@ class RecommendRequest(BaseModel):
 
 class RecommendResponse(BaseModel):
     recommendations: List[Recommendation]
-    allied_standards: List[AlliedStandard]
     explanation: str
     detected_language: Optional[str] = None
     warnings: List[WarningMessage] = Field(default_factory=list)

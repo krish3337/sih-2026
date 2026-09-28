@@ -31,7 +31,18 @@ def map_pipeline_response(
                 hs_code=cert_data.get("hs_code")
             )
             
-        status_data = pipeline_result.get("status_info", {})
+        status_data = rec.get("status_info", {})
+        
+        # Map per-candidate allied standards
+        rec_allied = []
+        for a in rec.get("allied_standards", []):
+            rec_allied.append(
+                AlliedStandard(
+                    standard_id=a.get("standard_id", ""),
+                    title=a.get("title"),
+                    relation_type=a.get("relation_type", "Other")
+                )
+            )
 
         mapped_recs.append(
             Recommendation(
@@ -45,22 +56,10 @@ def map_pipeline_response(
                 superseded_by=status_data.get("superseded_by"),
                 superseding_is=status_data.get("superseding_is"),
                 amendments=status_data.get("amendments", []),
-                certification=cert_info
+                certification=cert_info,
+                allied_standards=rec_allied
             )
         )
-
-    # 2. Map Allied Standards
-    mapped_allied = []
-    grouped_allied = pipeline_result.get("allied_standards", {})
-    for relation_type, stds in grouped_allied.items():
-        for std in stds:
-            mapped_allied.append(
-                AlliedStandard(
-                    standard_id=std.get("standard_id", ""),
-                    title=std.get("title"),
-                    relation_type=relation_type
-                )
-            )
 
     # 3. Extract detected language from query_understanding (LLM Call 1)
     detected_lang = None
@@ -76,7 +75,6 @@ def map_pipeline_response(
 
     return RecommendResponse(
         recommendations=mapped_recs,
-        allied_standards=mapped_allied,
         explanation=pipeline_result.get("explanation", ""),
         detected_language=detected_lang,
         warnings=warnings,

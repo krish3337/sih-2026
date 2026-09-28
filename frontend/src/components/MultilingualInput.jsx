@@ -19,7 +19,6 @@ export default function MultilingualInput({ onSubmit }) {
     e.preventDefault();
     if (!text.trim()) return;
     if (onSubmit) onSubmit(text, language);
-    setText('');
   };
 
   const handleTextChange = (e) => {

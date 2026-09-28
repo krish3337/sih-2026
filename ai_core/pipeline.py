@@ -60,30 +60,32 @@ class RecommendationPipeline:
         candidates = self._retriever.retrieve_candidates(retrieval_query, top_k=5)
         
         # 3. Data Check (Deterministic Graph, Metadata, Certification)
-        # We fetch allied standards and status for the top candidate,
-        # but certification is fetched PER candidate for accuracy.
+        # We fetch allied standards and status for the top candidate for the LLM synthesizer,
+        # but fetch certification, status, and allied for EACH candidate for the UI mapper.
         top_candidate = candidates[0] if candidates else None
         
-        allied_standards = []
-        status_info = {}
+        top_allied = []
+        top_status = {}
 
         if top_candidate:
             base_id = top_candidate["base_id"]
+            top_allied = self._expander.get_allied_standards(base_id, max_hops=1)
+            top_status = self._meta.check_status(base_id) or {}
 
-            allied_standards = self._expander.get_allied_standards(base_id, max_hops=1)
-            status_info = self._meta.check_status(base_id) or {}
-
-        # Fetch certification for EACH candidate individually
+        # Fetch data for EACH candidate individually
         for candidate in candidates:
+            base_id = candidate["base_id"]
             full_id = candidate["standard_id"]
             candidate["certification_info"] = self._cert.get_certification_requirements(full_id) or {}
+            candidate["status_info"] = self._meta.check_status(base_id) or {}
+            candidate["allied_standards"] = self._expander.get_allied_standards(base_id, max_hops=1)
 
         # 4. Synthesizer (LLM Call 2 - Evidence Constrained)
         response = self._synth.synthesize_response(
             query=text,
             primary_candidates=candidates,
-            allied_standards=allied_standards,
-            status_info=status_info,
+            allied_standards=top_allied,
+            status_info=top_status,
         )
 
         # Attach extraction result for inspection/debugging downstream

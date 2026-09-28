@@ -68,8 +68,10 @@ export default function HomeDashboard() {
         </div>
         
         {/* Right Column: AI Work Area */}
-        <div className="xl:col-span-7 h-full">
-          <AiWorkArea status={analysisStatus} results={results} />
+        <div className="xl:col-span-7 relative h-[600px] xl:h-auto">
+          <div className="h-full xl:absolute xl:inset-0">
+            <AiWorkArea status={analysisStatus} results={results} />
+          </div>
         </div>
       </div>
     </div>
