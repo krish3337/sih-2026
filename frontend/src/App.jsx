@@ -35,7 +35,7 @@ function App() {
   }
 
   return (
-    <div className="h-screen flex flex-col bg-gray-100 font-sans overflow-hidden">
+    <div className="h-screen flex flex-col bg-[#e0f2fe] font-sans overflow-hidden">
       <Header />
       
       <div className="flex flex-1 overflow-hidden h-[calc(100vh-5rem)]">
