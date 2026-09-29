@@ -4,14 +4,17 @@
   "version": "1.0",
   "description": "Government Standards Assistant to analyze procurement specifications.",
   "action": {
-    "default_popup": "index.html",
     "default_title": "Indian Standards AI"
+  },
+  "side_panel": {
+    "default_path": "index.html"
   },
   "permissions": [
     "activeTab",
     "contextMenus",
     "storage",
-    "scripting"
+    "scripting",
+    "sidePanel"
   ],
   "host_permissions": [
     "http://localhost:8000/*"

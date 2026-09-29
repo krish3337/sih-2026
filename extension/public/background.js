@@ -4,16 +4,24 @@ chrome.runtime.onInstalled.addListener(() => {
     title: "Analyze with Indian Standards AI",
     contexts: ["selection"]
   });
+
+  // Enable opening the side panel by clicking the extension icon
+  if (chrome.sidePanel) {
+    chrome.sidePanel.setPanelBehavior({ openPanelOnActionClick: true }).catch((error) => console.error(error));
+  }
 });
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
   if (info.menuItemId === "analyze-standards" && info.selectionText) {
     // Save selected text to local storage
     chrome.storage.local.set({ selectedSpecificationText: info.selectionText }, () => {
-      // In Manifest V3, we cannot automatically open the popup from a background script.
-      // So we will just show a badge or leave it to the user to open the popup.
-      chrome.action.setBadgeText({ text: "1" });
-      chrome.action.setBadgeBackgroundColor({ color: "#16a34a" }); // Emerald 600
+      // Open the side panel automatically!
+      if (chrome.sidePanel && tab && tab.windowId) {
+        chrome.sidePanel.open({ windowId: tab.windowId }).catch(console.error);
+      } else {
+        chrome.action.setBadgeText({ text: "1" });
+        chrome.action.setBadgeBackgroundColor({ color: "#16a34a" });
+      }
     });
   }
 });
@@ -24,3 +32,5 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     chrome.action.setBadgeText({ text: "" });
   }
 });
+
+

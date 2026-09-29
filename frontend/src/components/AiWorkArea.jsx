@@ -175,6 +175,11 @@ const StandardCard = ({ std }) => {
 };
 
 export default function AiWorkArea({ status = 'idle', results }) {
+  const hasLowConfidence = status === 'completed' && results && (
+    results.warnings?.some(w => w.code === 'NO_CONFIDENT_MATCH') || 
+    (results.recommendations?.length > 0 && results.recommendations[0].low_confidence)
+  );
+
   // Render the AI work area
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 h-full flex flex-col overflow-hidden">
@@ -183,9 +188,9 @@ export default function AiWorkArea({ status = 'idle', results }) {
       <div className="flex items-center justify-between p-5 border-b border-gray-100 bg-white">
         <div className="flex items-center">
           <Bot className="h-6 w-6 text-[#1a365d] mr-2" />
-          <h2 className="text-lg font-bold text-[#1a365d]">AI Analysis & Extracted Standards</h2>
+          <h2 className="text-lg font-bold text-[#1a365d]">Extracted Standards</h2>
         </div>
-        {status === 'completed' && results && (
+        {status === 'completed' && results && !hasLowConfidence && (
           <div className="flex items-center text-xs font-bold text-green-700 bg-green-50 px-3 py-1.5 rounded-full border border-green-200 animate-fade-in">
             <CheckCircle2 className="w-4 h-4 mr-1.5" />
             {results.recommendations?.length || 0} Relevant Standards Found
@@ -238,11 +243,7 @@ export default function AiWorkArea({ status = 'idle', results }) {
         )}
 
         {/* State: COMPLETED */}
-        {status === 'completed' && results && (() => {
-          const hasLowConfidence = results.warnings?.some(w => w.code === 'NO_CONFIDENT_MATCH') || 
-                                   (results.recommendations?.length > 0 && results.recommendations[0].low_confidence);
-          
-          return (
+        {status === 'completed' && results && (
           <div className="p-5 space-y-5 animate-fade-in-up">
             
             {/* Low Confidence Warning */}
@@ -254,24 +255,15 @@ export default function AiWorkArea({ status = 'idle', results }) {
                 <h3 className="text-lg font-bold text-orange-800 mb-2">No Relevant Standards Found</h3>
                 <p className="text-orange-700 text-sm">
                   We couldn't find any highly confident matches for your query. 
-                  The results below are shown as best-effort guesses but may not be relevant.
                 </p>
               </div>
             )}
 
-            {/* Explanation box */}
-            {results.explanation && (
-              <div className="bg-blue-50 border border-blue-100 p-4 rounded-xl text-sm text-[#1a365d] mb-4">
-                <strong>AI Explanation:</strong> {results.explanation}
-              </div>
-            )}
-
-            {(results.recommendations || []).map((std, idx) => (
+            {!hasLowConfidence && (results.recommendations || []).map((std, idx) => (
               <StandardCard key={idx} std={std} />
             ))}
           </div>
-          );
-        })()}
+        )}
       </div>
     </div>
   );

@@ -23,7 +23,7 @@ export default function Header() {
 
   return (
     <div className="flex flex-col relative z-50" ref={headerRef}>
-      <header className="bg-[#e0f2fe] text-[#0b1b3d] shadow-md">
+      <header className="bg-white text-[#1a365d] shadow-sm border-b border-gray-200">
         <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20 items-center">
             
@@ -33,17 +33,17 @@ export default function Header() {
                 <img src={logoImg} alt="StandSure Logo" className="h-10 w-auto object-contain mix-blend-multiply" />
               </div>
               <div className="flex flex-col justify-center">
-                <h1 className="text-xl font-bold tracking-tight text-[#0b1b3d] leading-tight">StandSure</h1>
-                <div className="flex items-center text-xs text-gray-600 mt-0.5 space-x-2">
+                <h1 className="text-xl font-bold tracking-tight text-[#1a365d] leading-tight">StandSure</h1>
+                <div className="flex items-center text-xs text-gray-500 mt-0.5 space-x-2">
                   <span>Government of India</span>
                   <span className="text-gray-400">|</span>
                   <span>AI Division</span>
                 </div>
               </div>
               
-              <div className="hidden md:block h-10 w-px bg-gray-300 mx-4"></div>
+              <div className="hidden md:block h-10 w-px bg-gray-200 mx-4"></div>
               
-              <div className="hidden lg:flex flex-col justify-center text-xs text-gray-600 leading-tight">
+              <div className="hidden lg:flex flex-col justify-center text-xs text-gray-500 leading-tight">
                 <span>Digital Platform for</span>
                 <span>Indian Standards Intelligence</span>
               </div>

@@ -30,33 +30,11 @@ export default function MultilingualInput({ onSubmit }) {
 
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5 flex flex-col">
-      <div className="flex items-center justify-between mb-4">
+      <div className="flex items-center mb-4">
         <h2 className="text-lg font-bold text-[#1a365d] flex items-center">
           <Languages className="w-5 h-5 mr-2 text-[#2b6cb0]" />
-          Multilingual Query
+          Enter your query (any language)
         </h2>
-        <div className="flex items-center">
-          <label htmlFor="language-select" className="text-sm text-gray-500 mr-3">Input Language:</label>
-          <div className="relative">
-            <select 
-              id="language-select"
-              value={language} 
-              onChange={(e) => setLanguage(e.target.value)}
-              className="appearance-none border border-gray-300 rounded-lg px-3 py-1.5 pr-8 text-sm text-gray-700 bg-white focus:outline-none focus:ring-1 focus:ring-[#1a365d] focus:border-[#1a365d]"
-            >
-              {languages.map(lang => (
-                <option key={lang.code} value={lang.code}>
-                  {lang.name}
-                </option>
-              ))}
-            </select>
-            <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
-              <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-              </svg>
-            </div>
-          </div>
-        </div>
       </div>
       
       <form onSubmit={handleSubmit} className="flex flex-col">
